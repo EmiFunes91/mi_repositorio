@@ -1,0 +1,501 @@
+/*----------Map-----------*/
+.navbar-collapse, .nav-link ul li:nth-child(1) {
+  color: #444444;
+  font-size: 17px;
+}
+
+.navbar-collapse, .nav-link ul li:nth-child(2) {
+  color: #444444;
+  font-size: 17px;
+}
+
+.navbar-collapse, .nav-link ul li:nth-child(3) {
+  color: #444444;
+  font-size: 17px;
+}
+
+.navbar-collapse, .nav-link ul li:nth-child(4) {
+  color: #444444;
+  font-size: 17px;
+}
+
+.navbar-collapse, .nav-link ul li:nth-child(5) {
+  color: #444444;
+  font-size: 17px;
+}
+
+.navbar-collapse, .nav-link ul li:nth-child(6) {
+  color: #444444;
+  font-size: 17px;
+}
+
+.title-16 {
+  font-size: 16px;
+}
+
+.title-20 {
+  font-size: 20px;
+}
+
+.title-24 {
+  font-size: 24px;
+}
+
+.title-32 {
+  font-size: 32px;
+}
+
+/*-------------------BODY---------------------*/
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/*---------------------LOGO/NAV--------------------*/
+.header {
+  position: relative;
+  width: 100%;
+}
+
+.header-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  background-color: transparent;
+}
+
+.logo {
+  font-size: 26px;
+  color: #000;
+  font-weight: 500;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.nav-item .nav-link {
+  display: block;
+  line-height: 36px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #000;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+}
+
+.nav-link:hover {
+  color: rgba(78, 102, 248, 0.623);
+}
+
+.navbar-scroll {
+  background-color: #fff;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+  -webkit-transition-duration: 0.6s;
+          transition-duration: 0.6s;
+}
+
+/*----------------------IMG FONDO/BTN/INDEX.HTML-----------------------------*/
+.content-banner {
+  color: #fff;
+  background-image: url(../img/fondo.png);
+  min-height: 600px;
+  height: 100%;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 1px;
+}
+
+.content-banner:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(78, 102, 248, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/*------------------------BTN/INDEX.HTML-----------------------------*/
+.encabezado {
+  color: #fff;
+}
+
+.encabezado .encabezado__titulo {
+  color: #e83e8c;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0;
+  position: relative;
+  z-index: 2;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.encabezado .encabezado__tituloUno {
+  text-transform: capitalize;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 1.2;
+  position: relative;
+  z-index: 0;
+  margin: 0px 0px 12px;
+}
+
+.encabezado .banner__btn {
+  padding: 0 50px;
+  z-index: 1;
+  margin: 0px auto 25px;
+  line-height: 56px;
+  position: relative;
+  border-radius: 6px;
+  height: 56px;
+  font-size: 18px;
+  background-color: #4e66f8;
+  display: inline-block;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-align: center;
+  text-decoration: none;
+}
+
+.encabezado .banner__btn:hover {
+  text-decoration: none;
+  color: #4e66f8;
+  background-color: #fff;
+}
+
+/*------------------SECTION DOS/INDEX.HMTL----------------*/
+.encabezado {
+  color: #fff;
+}
+
+.encabezado .encabezado__titulo {
+  color: #e83e8c;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0;
+  position: relative;
+  z-index: 2;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.encabezado .encabezado__tituloUno {
+  text-transform: capitalize;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 1.2;
+  position: relative;
+  z-index: 0;
+  margin: 0px 0px 12px;
+}
+
+.bloque {
+  font-style: normal;
+}
+
+.bloque .bloque__parrafo {
+  font-weight: 600;
+  color: #444444;
+}
+
+.bloque .bloque__subtitulo {
+  color: #e83e8c;
+}
+
+/*-------------SECTION TRES/CARD/INDEX.HTML--------------*/
+.card {
+  height: 300px;
+}
+
+.card .icono__card {
+  color: #4e66f8;
+}
+
+.card .h4__card {
+  font-weight: 600;
+  font-size: 20px;
+  color: #444444;
+}
+
+.card .p__card {
+  color: #888888;
+  font-size: 14px;
+}
+
+/*------------------FOOTER---------------------*/
+footer {
+  background-color: #292f41;
+}
+
+.sobreNosotros {
+  margin: 5px;
+}
+
+.email {
+  margin: 5px;
+}
+
+.enlaces {
+  margin: 5px;
+  color: #fff;
+}
+
+.enlaces .enlace__inicio {
+  color: #4e66f8;
+}
+
+.enlaces .enlace__inicio:hover {
+  color: #adb7fc;
+}
+
+.enlaces .enlace__sobreNosotros:hover {
+  color: #adb7fc;
+}
+
+.enlaces .enlace__sobreNosotros {
+  color: #4e66f8;
+}
+
+.enlaces .enlace__productos:hover {
+  color: #adb7fc;
+}
+
+.enlaces .enlace__productos {
+  color: #4e66f8;
+}
+
+.enlaces .enlace__contacto {
+  color: #4e66f8;
+}
+
+.enlaces .enlace__contacto:hover {
+  color: #adb7fc;
+}
+
+.redes {
+  margin: 5px;
+}
+
+.redes .redes__titulo {
+  color: #fff;
+}
+
+.redes .redesUno {
+  color: #4e66f8;
+}
+
+.redes .redesUno .redes__iconoUno:hover {
+  color: #adb7fc;
+}
+
+.redes .redesDos {
+  color: #4e66f8;
+}
+
+.redes .redesDos .redes__iconoDos:hover {
+  color: #adb7fc;
+}
+
+.redes .redesTres {
+  color: #4e66f8;
+}
+
+.redes .redesTres .redes__iconoTres:hover {
+  color: #adb7fc;
+}
+
+.redes .redesCuatro {
+  color: #4e66f8;
+}
+
+.redes .redesCuatro .redes__iconoCuatro:hover {
+  color: #adb7fc;
+}
+
+.boton {
+  background-color: #4e66f8;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  text-align: center;
+  text-decoration: none;
+}
+
+.boton .boton__send:hover {
+  color: #4e66f8;
+  background-color: #adb7fc;
+  border: 1px solid #adb7fc;
+}
+
+.derechos__reservados {
+  color: #4e66f8;
+}
+
+.derechos__reservados:hover {
+  color: #adb7fc;
+}
+
+/*----------------------------SECTION VUELOS-----------------------------*/
+.fondo-reserva {
+  background-image: url(../img/ubscale.png);
+  min-height: 300px;
+  height: 100%;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+}
+
+/*----------------------------SECTION HOTELES/CARD/SECTION UNO-----------------------------*/
+.titulo {
+  margin-top: 20px;
+}
+
+.titulo .titulo__reserva {
+  font-size: 24px;
+  font-weight: 600;
+  color: #444444;
+}
+
+.fondocontainer {
+  background-color: #eeeeee;
+}
+
+.card-alojamiento {
+  max-width: 100%;
+  width: 95%;
+  height: 380px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  background-color: #fff;
+}
+
+.card-alojamiento .card__body {
+  padding: 10px 14px;
+}
+
+.card-alojamiento .card__title {
+  font-weight: 600;
+  margin: 0px 0px 14px;
+  color: #444444;
+}
+
+.card-alojamiento .card__text {
+  font-size: 14px;
+  color: #888888;
+}
+
+.card-alojamiento:hover {
+  -webkit-box-shadow: 0px 0px 20px 5px #cccccc;
+          box-shadow: 0px 0px 20px 5px #cccccc;
+}
+
+/*----------------------------SECTION HOTELES/SECTION DOS-----------------------------*/
+.card-hotel {
+  height: 470px;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.card-hotel .card__img {
+  max-width: 100%;
+  width: 100%;
+  height: 230px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card-hotel .card__title {
+  font-weight: 600;
+}
+
+.card-hotel .card__text {
+  font-size: 15px;
+  color: #888888;
+}
+
+.card-hotel .btn__hotel {
+  background-color: #4e66f8;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  height: 35px;
+  font-weight: 600;
+}
+
+.card-hotel .btn__hotel:hover {
+  color: #4e66f8;
+  background-color: #adb7fc;
+}
+
+.seleccion {
+  -webkit-box-shadow: 0px 4px 8px #cccccc;
+          box-shadow: 0px 4px 8px #cccccc;
+  border-radius: 10px;
+  height: auto;
+}
+
+.seleccion .seleccion__btn {
+  background-color: #4e66f8;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  height: 35px;
+  font-weight: 600;
+}
+
+.seleccion .seleccion__btn:hover {
+  color: #4e66f8;
+  background-color: #fff;
+}
+
+.card-hotel:hover {
+  -webkit-box-shadow: 0px 0px 20px 5px #cccccc;
+          box-shadow: 0px 0px 20px 5px #cccccc;
+}
+
+/*----------------------------SECTION DOS/HOTEL/RESERVAS/CARD-----------------------------*/
+/*----------------------------SECTION CONTACTO-----------------------------*/
+/*----------------------------MEDIA QUERY-----------------------------*/
+@media only screen and (min-width: 1200px) {
+  .nav-item > .nav-link {
+    padding: 5px 20px !important;
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .header-inner {
+    background-color: #fff !important;
+  }
+  .nav-item > .nav-link {
+    color: #000 !important;
+  }
+  .logo {
+    color: #000 !important;
+    font-weight: 600 !important;
+  }
+  .content-banner .first-title {
+    font-size: 30px !important;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

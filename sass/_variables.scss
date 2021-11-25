@@ -1,0 +1,29 @@
+$colorUno: rgb(78,102,248);
+$colorDos: rgb(173, 183, 252);
+$fondo: rgb(41,47,65);
+
+/*----------Map-----------*/
+
+$negro: #000;
+$blanco: #fff;
+$azul: #0d6efd;
+$rosa: #e83e8c;
+$titulos: #444444;
+
+$primero: $negro;
+$segundo: $blanco;
+$tercero: $azul;
+$cuarto: $rosa;
+$quinto: $titulos;
+
+$temas-colores: (
+    "primero": $primero,
+    "segundo": $segundo,
+    "tercero": $tercero,
+    "cuarto": $cuarto,
+    "quinto": $titulos,
+);
+
+
+
+

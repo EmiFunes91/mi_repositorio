@@ -1,0 +1,17 @@
+$contador: 1;
+
+@for $contador from 1 through 6 {
+    .navbar-collapse, .nav-link ul li:nth-child(#{$contador}) {
+    color: $titulos;
+    font-size: 17px;
+  }
+}
+
+$titles: 16, 20, 24, 32;
+
+@each $size in $titles {
+    .title-#{$size} {
+        font-size: $size * 1px;
+    }
+}
+

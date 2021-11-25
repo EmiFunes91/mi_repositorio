@@ -1,0 +1,336 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.content-banner {
+    color: #ffffff;
+    background-image: url(../img/fondo.png);
+    min-height: 600px;
+    height: 100%;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 125px;
+}
+
+.content-banner:before {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(78,102,248, 0.7) ;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+ 
+.content-banner .titulo-uno {
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 1.2;
+    position: relative;
+    z-index: 0;
+    margin: 0px 0px 12px;
+    
+}
+
+.content-banner .banner-des {
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0;
+    position: relative;
+    z-index: 2;
+    font-weight: 400;
+    margin-top: 0;
+    color: #E83E8C;
+}
+
+.banner-btn {
+    padding: 0 50px;
+    z-index: 1;
+    margin: 0px auto 25px;
+    line-height: 56px;
+    position: relative;
+    border-radius: 6px;
+    height: 56px;
+    font-size: 18px;
+    background-color: rgba(78,102,248);
+    display: inline-block;
+    color: #ffffff;
+    transition: 0.3s;
+    text-align: center;
+    text-decoration: none;
+}
+
+.banner-btn:hover{
+    text-decoration: none;
+    color:rgba(78,102,248);
+    background-color: white;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+}
+
+.header-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: transparent;
+}
+
+.logo {
+    font-size: 26px;
+    color: #000;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 25px;
+    padding-left: 25px;
+
+}
+
+.nav-item .nav-link {
+display: block;
+line-height: 36px;
+text-transform: capitalize;
+font-size: 18px;
+font-weight: 500;
+color: #000;
+transition: 0.15s;
+
+}
+
+.nav-item .nav-link:hover{
+    color: rgba(49,210,242, 0.623);
+}
+
+.navbar-scroll {
+    background-color: #ffffff;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    transition-duration: 0.6s;
+}
+
+.navbar-scroll .nav-item .nav-link {
+    color: black;
+    
+}
+
+.navbar-scroll {
+    color:#ffffff;
+}
+
+.navbar-scroll .logo {
+    color: #000;
+    font-weight: 500;
+}
+
+.titulo-uno {
+    text-transform: capitalize;
+}
+
+.blockquote-footer {
+    color:#E83E8C;
+}
+
+
+ .card{
+     height: 400px;
+ }
+
+footer {
+     background-color: #292F41;
+
+}
+
+
+@media only screen and (min-width:1200px) {
+    .nav-item > .nav-link { 
+        padding: 5px 20px !important;
+        display: block !important;}
+}
+
+@media only screen and (max-width:992px) {
+    .header-inner { 
+        background-color: white !important;}
+    .nav-item > .nav-link {
+        color: black !important}
+    .logo {color: #000 !important;
+        font-weight: 600 !important;}
+    .content-banner .first-title { font-size: 30px !important;
+    }    
+}    
+
+
+.content-banner {
+    color: #ffffff;
+    background-image: url(../img/fondo.png);
+    min-height: 600px;
+    height: 100%;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 125px;
+}
+
+.content-banner:before {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(78,102,248, 0.7) ;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+ 
+.content-banner .titulo-uno {
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 1.2;
+    position: relative;
+    z-index: 0;
+    margin: 0px 0px 12px;
+    
+}
+
+.content-banner .banner-des {
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0;
+    position: relative;
+    z-index: 2;
+    font-weight: 400;
+    margin-top: 0;
+    color: #E83E8C;
+}
+
+.banner-btn {
+    padding: 0 50px;
+    z-index: 1;
+    margin: 0px auto 25px;
+    line-height: 56px;
+    position: relative;
+    border-radius: 6px;
+    height: 56px;
+    font-size: 18px;
+    background-color: rgba(78,102,248);
+    display: inline-block;
+    color: #ffffff;
+    transition: 0.3s;
+    text-align: center;
+    text-decoration: none;
+}
+
+.banner-btn:hover{
+    text-decoration: none;
+    color:rgba(78,102,248);
+    background-color: white;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+}
+
+.header-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: transparent;
+    
+}
+
+.logo {
+    font-size: 26px;
+    color: #000;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 25px;
+    padding-left: 25px;
+
+}
+
+.nav-item .nav-link {
+display: block;
+line-height: 36px;
+text-transform: capitalize;
+font-size: 18px;
+font-weight: 500;
+color: #000;
+transition: 0.15s;
+
+}
+
+.nav-item .nav-link:hover{
+    color: rgba(49,210,242, 0.623);
+}
+
+.navbar-scroll {
+    background-color: #ffffff;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    transition-duration: 0.6s;
+}
+
+.navbar-scroll .nav-item .nav-link {
+    color: black;
+    
+}
+
+.navbar-scroll {
+    color:#ffffff;
+}
+
+.navbar-scroll .logo {
+    color: #000;
+    font-weight: 500;
+}
+
+.titulo-uno {
+    text-transform: capitalize;
+}
+
+.blockquote-footer {
+    color:#E83E8C;
+}
+
+
+ .card{
+     height: 400px;
+ }
+
+footer {
+     background-color: #292F41;
+
+}
+
+
+@media only screen and (min-width:1200px) {
+    .nav-item > .nav-link { 
+        padding: 5px 20px !important;
+        display: block !important;}
+}
+
+@media only screen and (max-width:992px) {
+    .header-inner { 
+        background-color: white !important;}
+    .nav-item > .nav-link {
+        color: black !important}
+    .logo {color: #000 !important;
+        font-weight: 600 !important;}
+    .content-banner .first-title { font-size: 30px !important;
+    }    
+}    
