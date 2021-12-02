@@ -13,7 +13,8 @@
   <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="../sass/styles.css">
   <title>Contactanos</title>
-  <meta name="description" content="Estamos a tu disposicion. Nuestra prioridad es el pasajero y como tal ponemos a su servicio diversas vías de contacto">
+  <meta name="description"
+    content="Estamos a tu disposicion. Nuestra prioridad es el pasajero y como tal ponemos a su servicio diversas vías de contacto">
 </head>
 
 <body>
@@ -73,53 +74,39 @@
     </div>
   </section>
 
-  <section class="container p-5 mt-4 mb-4">
-    <form class="row g-3">
-      <div class="col-md-4">
-        <label for="validationDefault01" class="form-label">First name</label>
-        <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
-      </div>
-      <div class="col-md-4">
-        <label for="validationDefault02" class="form-label">Last name</label>
-        <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
-      </div>
-      <div class="col-md-4">
-        <label for="validationDefaultUsername" class="form-label">Username</label>
-        <div class="input-group">
-          <span class="input-group-text" id="inputGroupPrepend2">@</span>
-          <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2"
-            required>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <label for="validationDefault03" class="form-label">City</label>
-        <input type="text" class="form-control" id="validationDefault03" required>
-      </div>
-      <div class="col-md-3">
-        <label for="validationDefault04" class="form-label">State</label>
-        <select class="form-select" id="validationDefault04" required>
-          <option selected disabled value="">Choose...</option>
-          <option>...</option>
-        </select>
-      </div>
-      <div class="col-md-3">
-        <label for="validationDefault05" class="form-label">Zip</label>
-        <input type="text" class="form-control" id="validationDefault05" required>
-      </div>
-      <div class="col-12">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-          <label class="form-check-label" for="invalidCheck2">
-            Agree to terms and conditions
-          </label>
-        </div>
-      </div>
-      <div class="col-12">
-        <button class="btn btn-primary" type="submit">Submit form</button>
-      </div>
-    </form>
-  </section>
+  <form class="container p-4 m-5 formulario">
+    <div class="form-group">
+      <h3 class="titulo__contacto text-center">Contáctanos</h3>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Nombre Completo</label>
+      <input type="nombre" class="form-control borde__formulario" id="exampleInputEmail1" aria-describedby="emailHelp"
+        placeholder="Escriba su nombre">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Localidad</label>
+      <input type="localidad" class="form-control borde__formulario" id="exampleInputEmail1"
+        aria-describedby="emailHelp" placeholder="Localidad">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Teléfono / Celular</label>
+      <input type="teléfono" class="form-control borde__formulario" id="exampleInputEmail1" aria-describedby="emailHelp"
+        placeholder="Teléfono / Celular">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Email</label>
+      <input type="email" class="form-control borde__formulario" id="exampleInputPassword1" placeholder="Email">
+    </div>
+    <div class="form-group form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Aceptar términos y condiciones</label>
+    </div>
+    <div class="text-center">
+      <button type="submit" class="btn btn__contacto mt-3">Enviar Formulario</button>
+    </div>
+  </form>
 
+  <!------------------FOOTER------------------>
 
   <footer id="footer" class="site-footer">
     <div class="container">
@@ -133,7 +120,7 @@
                 asegurando la satisfacción de nuestros clientes.</p>
             </div>
             <div class="enlaces col-md-3 ml-auto">
-              <h2 class="footer-heading mb-4">Enlaces rapidos</h2>
+              <h2 class="footer-heading mb-4">Enlaces rápidos</h2>
               <ul class="list-unstyled text-white">
                 <li><a href="index.html" class="enlace__inicio smoothscroll text-decoration-none">Inicio</a></li>
                 <li><a href="pag/sobrenosotros.html"
@@ -163,10 +150,10 @@
           <h2 class="footer-heading mb-4 text-white email ">Suscríbete a nuestro Newsletter</h2>
           <form action="#" method="post" class="footer-subscribe">
             <div class="input-group mb-3 bg-light rounded-1">
-              <input type="text" class="form-control border-secondary bg-transparent p-0" placeholder="Enviar Email"
+              <input type="text" class="form-control border-secondary bg-transparent p-0" placeholder="Escribir Email"
                 aria-label="Enviar Email" aria-describedby="button-addon2">
               <div class="boton input-group-append">
-                <button class="boton__send btn text-white" type="button" id="button-addon2">Suscribete</button>
+                <button class="boton__send btn text-white" type="button" id="button-addon2">Enviar</button>
               </div>
             </div>
           </form>
