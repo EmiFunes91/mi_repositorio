@@ -45,6 +45,7 @@ body {
 
 .nav-link:hover {
   color: rgba($colorUno, 0.623);
+  
 }
 
 .navbar-scroll {
@@ -173,7 +174,7 @@ body {
 /*-------------SECTION TRES/CARD/INDEX.HTML--------------*/
 
 .card {
-  height: 300px;
+  height: 18.75rem;
   
 
   .icono__card {
@@ -196,6 +197,9 @@ body {
 
 footer {
   background-color: $fondo;
+  padding-top: 4rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .sobreNosotros {
@@ -282,12 +286,22 @@ footer {
   }
 }
 
+.form-control {
+  width: 100px;
+}
+
 .boton {
   background-color: $colorUno;
   color: $blanco;
   transition: 0.2s;
-  text-align: center;
   text-decoration: none;
+  text-align: center;
+  
+  
+  .boton__send {
+    width: 5rem;
+    
+  }
 
   .boton__send:hover {
     color: $colorUno;
@@ -333,17 +347,16 @@ footer {
 }
 
 .card-alojamiento {
-  max-width: 100%;
-  width: 95%;
-  height: 380px;
+  max-width: 90%;
+  width: 90%;
+  height: 23.75rem;
   border: 1px solid #cccccc;
   border-radius: 8px;
   transition: all 300ms ease;
   background-color: $blanco;
   
   .card__body {
-    padding: 10px 14px;
-    
+    padding: 2rem 1rem;
   }
  
   .card__title {
@@ -353,7 +366,7 @@ footer {
   }
 
   .card__text {
-    font-size: 14px;
+    font-size: 13px;
     color: #888888;
       
   }
@@ -362,13 +375,14 @@ footer {
 .card-alojamiento:hover {
   box-shadow: 0px 0px 20px 5px #cccccc;
 }
-/*----------------------------SECTION HOTELES/SECTION DOS-----------------------------*/
+/*----------------------------SECTION HOTELES/SECTION DOS/TRES-----------------------------*/
 
 .card-hotel {
   height: 470px;
   border: 1px solid #cccccc;
   border-radius: 10px;
   transition: all 300ms ease;
+  
 
   .card__img {
     max-width: 100%;
@@ -387,41 +401,43 @@ footer {
   }
 
   .btn__hotel {
-    background-color: $colorUno;
+    background-color: $fondo;
     color: $blanco;
     transition: 0.2s;
     text-align: center;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 1rem;
     height: 35px;
     font-weight: 600;
   }
 
   .btn__hotel:hover {
+    background-color: #cccccc;
     color: $colorUno;
-    background-color: $colorDos;
   }
 }
 
 .seleccion {
+  border: 1px solid #cccccc;
   box-shadow: 0px 4px 8px #cccccc;
-  border-radius: 10px;
+  border-radius: 5px;
   height: auto;
 
   .seleccion__btn {
-    background-color: $colorUno;
+    background-color: $fondo;
     color: $blanco;
     transition: 0.2s;
     text-align: center;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 1rem;
     height: 35px;
     font-weight: 600;
   }
 
   .seleccion__btn:hover {
+    background-color: #cccccc;
     color: $colorUno;
-    background-color: $blanco;
+    
   }
 }
 
@@ -429,9 +445,48 @@ footer {
   box-shadow: 0px 0px 20px 5px #cccccc;
 }
 
-/*----------------------------SECTION DOS/HOTEL/RESERVAS/CARD-----------------------------*/
+/*----------------------------SECTION DOS/VUELOS/RESERVAS/VUELOS-----------------------------*/
+
+/*----------------------------SECTION/SOBRE NOSOTROS-----------------------------*/
+
+
 
 /*----------------------------SECTION CONTACTO-----------------------------*/
+
+.formulario {
+  background-color: $blanco;
+  color: $colorUno;
+  border: 1px solid $colorUno;
+  max-width: 60%;
+  width: auto;
+
+  .titulo__contacto {
+    font-weight: 600;
+    font-size: 40px;
+  }
+
+  .borde__formulario {
+    border: 1px solid $colorUno;
+  }
+
+  .btn__contacto {
+    background-color: $colorUno;
+    color: $blanco;
+    transition: 0.2s;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    width: 100%;
+}
+
+  .btn__contacto:hover {
+    color: $colorUno;
+    background-color: $colorDos;
+    border: 1px solid $colorDos;
+  }
+}
+
 
 /*----------------------------MEDIA QUERY-----------------------------*/
 
