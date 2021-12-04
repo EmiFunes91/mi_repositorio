@@ -66,9 +66,17 @@ body {
 }
 
 .logo {
-  font-size: 26px;
+  font-size: 23px;
   color: #000;
   font-weight: 500;
+  padding-left: 2px;
+}
+
+.logo .logo__uno {
+  padding-bottom: 6px;
+  width: 50px;
+  margin: -3 0px 0px 0px;
+  font-weight: 600;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
