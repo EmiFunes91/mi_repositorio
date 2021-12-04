@@ -24,14 +24,14 @@ body {
 }
 
 .logo {
-  font-size: 23px;
+  font-size: 20px;
   color: $negro;
   font-weight: 600;
   padding-left: 2px;
 
 .logo__uno {
     padding-bottom: 6px;
-    width: 50px;
+    width: 47px;
     margin: -3 0px 0px 0px;
     font-weight: 600;
   }
@@ -47,9 +47,10 @@ body {
   display: block;
   line-height: 36px;
   text-transform: capitalize;
-  font-weight: 500;
+  font-weight: 600;
   color: $negro;
   transition: 0.15s;
+  font-size: 16px;
 }
 
 .nav-link:hover {
@@ -204,24 +205,26 @@ body {
 
 /*------------------FOOTER---------------------*/
 
-footer {
+.footer {
   background-color: $fondo;
   padding-top: 4rem;
   padding-left: 3rem;
   padding-right: 3rem;
+
 }
 
 .sobreNosotros {
-  margin: 5px;
+  margin: px;
+  font-size: 15px;
 }
 
 .email {
-  margin: 5px;
+  margin: px;
 }
 
 .enlaces {
-  margin: 5px;
   color: $blanco;
+  font-size: 15px;
 
   .enlace__inicio {
     color: $colorUno;
@@ -257,7 +260,10 @@ footer {
 }
 
 .redes {
-  margin: 5px;
+  margin: px;
+  font-size: 14px;
+  padding-left: 0px;
+  
   .redes__titulo {
     color: $blanco;
   }
@@ -299,32 +305,45 @@ footer {
   width: 100px;
 }
 
-.boton {
-  background-color: $colorUno;
-  color: $blanco;
-  transition: 0.2s;
-  text-decoration: none;
-  text-align: center;
-  
-  
-  .boton__send {
-    width: 5rem;
-    
-  }
+.suscribete {
+  padding-right: 33px;
+  padding-left: 0px;
 
-  .boton__send:hover {
+  .text__email {
+    font-size: 15px;
+  }
+  
+  .boton__email {
+    background-color: $colorUno;
+    color: $blanco;
+    transition: 0.2s;
+    text-decoration: none;
+    text-align: center;
+    }
+
+    .boton__enviar {
+      width: 5rem;
+      font-size: 15px;
+    }
+
+    .boton__enviar:hover {
+      color: $colorUno;
+      background-color: $colorDos;
+      border: 1px solid $colorDos;
+    }
+}
+
+
+.derechos {
+  font-size: 15px;
+
+  .derechos__reservados {
     color: $colorUno;
-    background-color: $colorDos;
-    border: 1px solid $colorDos;
   }
-}
 
-.derechos__reservados {
-  color: $colorUno;
-}
-
-.derechos__reservados:hover {
-  color: $colorDos;
+  .derechos__reservados:hover {
+    color: $colorDos;
+  }
 }
 
 /*----------------------------SECTION VUELOS-----------------------------*/
