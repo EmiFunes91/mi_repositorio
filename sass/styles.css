@@ -470,8 +470,7 @@ body {
 }
 
 .card-hotel .btn__hotel:hover {
-  background-color: #cccccc;
-  color: #4e66f8;
+  background-color: #5e6a8f;
 }
 
 .seleccion {
@@ -494,8 +493,7 @@ body {
 }
 
 .seleccion .seleccion__btn:hover {
-  background-color: #cccccc;
-  color: #4e66f8;
+  background-color: #5e6a8f;
 }
 
 .card-hotel:hover {
