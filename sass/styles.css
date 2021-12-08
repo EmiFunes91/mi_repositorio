@@ -162,12 +162,12 @@ body {
 .encabezado .banner__btn {
   padding: 0 50px;
   z-index: 1;
-  margin: 0px auto 25px;
-  line-height: 56px;
+  line-height: 50px;
   position: relative;
+  margin-top: 8px;
   border-radius: 6px;
-  height: 56px;
-  font-size: 18px;
+  height: 50px;
+  font-size: 16px;
   background-color: #4e66f8;
   display: inline-block;
   color: #fff;
@@ -190,8 +190,8 @@ body {
 
 .encabezado .encabezado__titulo {
   color: #e83e8c;
-  font-size: 18px;
-  line-height: 150%;
+  font-size: 17px;
+  line-height: 100%;
   letter-spacing: 0;
   position: relative;
   z-index: 2;
@@ -201,7 +201,7 @@ body {
 
 .encabezado .encabezado__tituloUno {
   text-transform: capitalize;
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 400;
   line-height: 1.2;
   position: relative;
@@ -216,10 +216,12 @@ body {
 .bloque .bloque__parrafo {
   font-weight: 600;
   color: #444444;
+  font-size: 22px;
 }
 
 .bloque .bloque__subtitulo {
   color: #e83e8c;
+  font-size: 16px;
 }
 
 /*-------------SECTION TRES/CARD/INDEX.HTML--------------*/
@@ -393,7 +395,7 @@ body {
 }
 
 .titulo .titulo__reserva {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 600;
   color: #444444;
 }
@@ -411,6 +413,7 @@ body {
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
   background-color: #fff;
+  margin-left: 17px;
 }
 
 .card-alojamiento .card__body {
