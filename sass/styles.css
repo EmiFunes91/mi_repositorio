@@ -380,13 +380,21 @@ body {
 }
 
 /*----------------------------SECTION VUELOS-----------------------------*/
-.fondo-reserva {
-  background-image: url(../img/ubscale.png);
-  min-height: 300px;
-  height: 100%;
-  position: relative;
-  background-position: center center;
-  background-size: cover;
+.card__Vuelo {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.card__titleVuelo {
+  padding-top: 8px;
+  color: #000;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.card__textVuelo {
+  font-size: 14px;
+  color: #888888;
 }
 
 /*----------------------------SECTION HOTELES/CARD/SECTION UNO-----------------------------*/
@@ -398,6 +406,10 @@ body {
   font-size: 22px;
   font-weight: 600;
   color: #444444;
+}
+
+.titulo .subTitulo__reserva {
+  font-size: 16px;
 }
 
 .fondocontainer {
@@ -452,6 +464,9 @@ body {
 }
 
 .card-hotel .card__title {
+  padding-top: 4px;
+  color: #000;
+  font-size: 19px;
   font-weight: 600;
 }
 

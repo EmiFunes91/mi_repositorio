@@ -13,7 +13,8 @@
   <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="../sass/styles.css">
   <title>Vuelos, descuentos</title>
-  <meta name="description" content="Soñar con viajar es posible. Las tarifas más bajas en vuelos flexibles están en TravelFinder">
+  <meta name="description"
+    content="Soñar con viajar es posible. Las tarifas más bajas en vuelos flexibles están en TravelFinder">
 </head>
 
 <!-------------BODY-------------->
@@ -58,8 +59,12 @@
               </li>
             </ul>
           </div>
+          <div class="iconoCompra btn">
+            <span><i class="fas fa-shopping-cart"></i></span>
+          </div>
         </nav>
       </div>
+    </div>
   </header>
 
   <!--------------IMG FONDO/BTN---------------->
@@ -93,34 +98,39 @@
 
   <!----------SECTION UNO/TITULO/VUELOS---------------->
 
-  <section class="container p-3">
+  <section class="container pt-5">
     <div class="container titulo">
       <h4 class="titulo__reserva m-0">Destinos populares desde Buenos Aires</h4>
-      <div>
-        <div>
-        <p>Viaja desde Buenos Aires a estos increíbles lugares elegidos solo para ti.</p>
-      </div>
+      <p class="subTitulo__reserva">Viaja desde Buenos Aires a estos increíbles lugares elegidos solo para ti.</p>
+    </div>
   </section>
-
-
 
   <!----------SECTION DOS/VUELOS/RESERVAS---------------->
 
   <section class="container">
     <div class="container row p-3 m-0 justify-content-between">
       <div class="card-hotel m-3 p-0" style="width: 20rem;">
-        <img src="../img/hotelBsAs.png" class="card__img" alt="hotelBsAs">
+        <img src="../img/vueloCuritiba.png" class="card__img" alt="vueloBrasil">
         <div class="card-body">
-          <h6 class="card-subtitle mb-2 text-muted d-flex justify-content-between">Alojamiento<span>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-            </span></h6>
-          <h5 class="card__title title-20">NH Collection</h5>
-          <p class="card__text">El hotel de cinco estrellas NH Collection, goza de una práctica ubicación a pocos
-            metros de la histórica Manzana de las Luces.</p>
+          <h6 class="card__Vuelo mb-2 text-muted d-flex justify-content-between"><i class="fas fa-plane"></i>VUELO</h6>
+          <h5 class="card__titleVuelo title-20">Vuelos a Curitiba, Brasil</h5>
+              <p class="card__textVuelo">Saliendo desde Buenos Aires</p>
+              <p class="card__textVuelo">Por LATAM Airlines Group</p>
+              <p class="card__textVuelo">Desde $57.179</p>
+              <div class="btn-hotel d-flex justify-content-end">
+                <a class="btn btn__hotel" style="width: 150px;" onclick="Mensaje()">Reservar</a>
+              </div>
+        </div>
+      </div>
+
+      <div class="card-hotel m-3 p-0" style="width: 20rem;">
+        <img src="../img/vueloIquique.png" class="card__img" alt="vueloChile">
+        <div class="card-body">
+          <h6 class="card__Vuelo mb-2 text-muted d-flex justify-content-between"><i class="fas fa-plane"></i>VUELO</h6>
+          <h5 class="card__titleVuelo title-20">Iquique, Chile</h5>
+          <p class="card__textVuelo"></p>
+          <p class="card__textVuelo"></p>
+          <p class="card__textVuelo"></p>
           <div class="btn-hotel d-flex justify-content-end">
             <a class="btn btn__hotel" style="width: 150px;" onclick="Mensaje()">Reservar</a>
           </div>
@@ -128,18 +138,13 @@
       </div>
 
       <div class="card-hotel m-3 p-0" style="width: 20rem;">
-        <img src="../img/hotelBrasil.png" class="card__img" alt="hotelBrasil">
+        <img src="../img/vueloBarranquilla.png" class="card__img" alt="vueloColombia">
         <div class="card-body">
-          <h6 class="card-subtitle mb-2 text-muted d-flex justify-content-between">Alojamiento<span>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:#cccccc;"></i>
-            </span></h6>
-          <h5 class="card__title title-20">NH Curitiba The Five</h5>
-          <p class="card__text">Disfrutarán de un centro comercial de primer nivel, así como
-            de un hotel de categoría, cuando se alojen en el NH Curitiba The Five.</p>
+          <h6 class="card__Vuelo mb-2 text-muted d-flex justify-content-between"><i class="fas fa-plane"></i>VUELO</h6>
+          <h5 class="card__titleVuelo title-20">Barranquilla, Colombia</h5>
+          <p class="card__textVuelo"></p>
+          <p class="card__textVuelo"></p>
+          <p class="card__textVuelo"></p>
           <div class="btn-hotel d-flex justify-content-end">
             <a class="btn btn__hotel" style="width: 150px;" onclick="Mensaje()">Reservar</a>
           </div>
@@ -147,19 +152,13 @@
       </div>
 
       <div class="card-hotel m-3 p-0" style="width: 20rem;">
-        <img src="../img/hotelChile.png" class="card__img" alt="HotelChile">
+        <img src="../img/vueloCuba.png" class="card__img" alt="vueloCuba">
         <div class="card-body">
-          <h6 class="card-subtitle mb-2 text-muted d-flex justify-content-between">Alojamiento<span>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:#cccccc;"></i>
-            </span></h6>
-          <h5 class="card__title title-20">NH Iquique</h5>
-          <p class="card__text">Rodeado de enormes jardines y ubicado en el mejor sitio de un tranquilo barrio
-            residencial con vista al mar.
-          </p>
+          <h6 class="card__Vuelo mb-2 text-muted d-flex justify-content-between"><i class="fas fa-plane"></i>VUELO</h6>
+          <h5 class="card__titleVuelo title-20">La Habana, Cuba</h5>
+          <p class="card__textVuelo"></p>
+          <p class="card__textVuelo"></p>
+          <p class="card__textVuelo"></p>
           <div class="btn-hotel d-flex justify-content-end">
             <a class="btn btn__hotel" style="width: 150px;" onclick="Mensaje()">Reservar</a>
           </div>
@@ -167,18 +166,13 @@
       </div>
 
       <div class="card-hotel m-3 p-0" style="width: 20rem;">
-        <img src="../img/hotelColombia.png" class="card__img" alt="HotelColombia">
+        <img src="../img/vueloEcuador.png" class="card__img" alt="vueloEcuador">
         <div class="card-body">
-          <h6 class="card-subtitle mb-2 text-muted d-flex justify-content-between">Alojamiento<span>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-            </span></h6>
-          <h5 class="card__title title-20">NH Collection Barranquilla</h5>
-          <p class="card__text">El hotel NH Collection Barranquilla Smartsuites Royal goza de una localización
-            excepcional con vista al río Magdalena.</p>
+          <h6 class="card__Vuelo mb-2 text-muted d-flex justify-content-between"><i class="fas fa-plane"></i>VUELO</h6>
+          <h5 class="card__titleVuelo title-20">Quito, Ecuador</h5>
+          <p class="card__textVuelo"></p>
+          <p class="card__textVuelo"></p>
+          <p class="card__textVuelo"></p>
           <div class="btn-hotel d-flex justify-content-end">
             <a class="btn btn__hotel" style="width: 150px;" onclick="Mensaje()">Reservar</a>
           </div>
@@ -186,18 +180,13 @@
       </div>
 
       <div class="card-hotel m-3 p-0" style="width: 20rem;">
-        <img src="../img/hotelCuba.png" class="card__img" alt="HotelCuba">
+        <img src="../img/vueloEEUU.png" class="card__img" alt="vueloEEUU">
         <div class="card-body">
-          <h6 class="card-subtitle mb-2 text-muted d-flex justify-content-between">Alojamiento<span>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:#cccccc;"></i>
-            </span></h6>
-          <h5 class="card__title title-20">NH Capri La Habana</h5>
-          <p class="card__text">El hotel NH Capri La Habana está situado en el barrio de Vedado, cerca del Malecón a lo
-            largo del paseo marítimo.</p>
+          <h6 class="card__Vuelo mb-2 text-muted d-flex justify-content-between"><i class="fas fa-plane"></i>VUELO</h6>
+          <h5 class="card__titleVuelo title-20">New York, EEUU</h5>
+          <p class="card__textVuelo"></p>
+          <p class="card__textVuelo"></p>
+          <p class="card__textVuelo"></p>
           <div class="btn-hotel d-flex justify-content-end">
             <a class="btn btn__hotel" style="width: 150px;" onclick="Mensaje()">Reservar</a>
           </div>
@@ -205,19 +194,13 @@
       </div>
 
       <div class="card-hotel m-3 p-0" style="width: 20rem;">
-        <img src="../img/hotelEcuador.png" class="card__img" alt="HotelEcuador">
+        <img src="../img/vueloMexico.png" class="card__img" alt="vueloMexico">
         <div class="card-body">
-          <h6 class="card-subtitle mb-2 text-muted d-flex justify-content-between">Alojamiento<span>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-            </span></h6>
-          <h5 class="card__title title-20">NH Collection Quito Royal</h5>
-          <p class="card__text">Ubicado en el centro de Quito, el hotel NH Collection Quito Royal ofrece exquisito
-            confort y estilo en el centro del
-            distrito de negocios.</p>
+          <h6 class="card__Vuelo mb-2 text-muted d-flex justify-content-between"><i class="fas fa-plane"></i>VUELO</h6>
+          <h5 class="card__titleVuelo title-20">Cancún, México</h5>
+          <p class="card__textVuelo"></p>
+          <p class="card__textVuelo"></p>
+          <p class="card__textVuelo"></p>
           <div class="btn-hotel d-flex justify-content-end">
             <a class="btn btn__hotel" style="width: 150px;" onclick="Mensaje()">Reservar</a>
           </div>
@@ -225,56 +208,13 @@
       </div>
 
       <div class="card-hotel m-3 p-0" style="width: 20rem;">
-        <img src="../img/hotelEEUU.png" class="card__img" alt="HotelEEUU">
+        <img src="../img/vueloHaiti.png" class="card__img" alt="vueloHaití">
         <div class="card-body">
-          <h6 class="card-subtitle mb-2 text-muted d-flex justify-content-between">Alojamiento<span>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:#cccccc;"></i>
-            </span></h6>
-          <h5 class="card__title title-20">New York Madison Avenue</h5>
-          <p class="card__text">El hotel NH Collection New York Madison Avenue está situado en la avenida Madison en
-            pleno centro de Manhattan.</p>
-          <div class="btn-hotel d-flex justify-content-end">
-            <a class="btn btn__hotel" style="width: 150px;" onclick="Mensaje()">Reservar</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="card-hotel m-3 p-0" style="width: 20rem;">
-        <img src="../img/hotelMexico.png" class="card__img" alt="HotelMexico">
-        <div class="card-body">
-          <h6 class="card-subtitle mb-2 text-muted d-flex justify-content-between">Alojamiento<span>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:#cccccc;"></i>
-            </span></h6>
-          <h5 class="card__title title-20">NH Cancún Airport</h5>
-          <p class="card__text">El NH Cancún Airport está cerca de las playas de arena blanca de Cancún y de los
-            principales puntos de interés turístico.</p>
-          <div class="btn-hotel d-flex justify-content-end">
-            <a class="btn btn__hotel" style="width: 150px;" onclick="Mensaje()">Reservar</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="card-hotel m-3 p-0" style="width: 20rem;">
-        <img src="../img/hotelHaiti.png" class="card__img" alt="HotelHaiti">
-        <div class="card-body">
-          <h6 class="card-subtitle mb-2 text-muted d-flex justify-content-between">Alojamiento<span>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:orange;"></i>
-              <i class="fas fa-star" style="color:#cccccc;"></i>
-            </span></h6>
-          <h5 class="card__title title-20">NH Haiti El Rancho</h5>
-          <p class="card__text">El hotel NH Haití El Rancho es un exclusivo edificio situado en el corazón de
-            Petion-Ville a 7 kilómetros de Port-au-Prince.</p>
+          <h6 class="card__Vuelo mb-2 text-muted d-flex justify-content-between"><i class="fas fa-plane"></i>VUELO</h6>
+          <h5 class="card__titleVuelo title-20">Haití</h5>
+          <p class="card__textVuelo"></p>
+          <p class="card__textVuelo"></p>
+          <p class="card__textVuelo"></p>
           <div class="btn-hotel d-flex justify-content-end">
             <a class="btn btn__hotel" style="width: 150px;" onclick="Mensaje()">Reservar</a>
           </div>
