@@ -381,20 +381,46 @@ body {
 
 /*----------------------------SECTION VUELOS-----------------------------*/
 .card__Vuelo {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
 }
 
 .card__titleVuelo {
-  padding-top: 8px;
+  padding-top: 2px;
   color: #000;
-  font-size: 19px;
+  font-size: 20px;
+  line-height: 28px;
   font-weight: 600;
 }
 
 .card__textVuelo {
   font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 20px;
   color: #888888;
+}
+
+.card__textUno {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  margin: 0px;
+  padding-top: 10px;
+}
+
+.card__textDos {
+  font-size: 14px;
+  letter-spacing: 0.05px;
+  line-height: 20px;
+}
+
+.card__textTres {
+  font-size: 24px;
+  font-weight: 0;
+}
+
+.contenidoPrecio {
+  border-top: 1px solid #888888;
 }
 
 /*----------------------------SECTION HOTELES/CARD/SECTION UNO-----------------------------*/
@@ -414,6 +440,8 @@ body {
 
 .fondocontainer {
   background-color: #eeeeee;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .card-alojamiento {
@@ -471,8 +499,9 @@ body {
 }
 
 .card-hotel .card__text {
-  font-size: 15px;
+  font-size: 14px;
   color: #888888;
+  margin-bottom: 2rem;
 }
 
 .card-hotel .btn__hotel {
@@ -489,6 +518,10 @@ body {
 
 .card-hotel .btn__hotel:hover {
   background-color: #5e6a8f;
+}
+
+.btn-hotel {
+  border-top: 1px solid #888888;
 }
 
 .seleccion {
