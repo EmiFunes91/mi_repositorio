@@ -344,7 +344,10 @@ body {
 }
 
 .suscribete .text__email {
-  font-size: 15px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  color: #888888;
 }
 
 .suscribete .boton__email {
@@ -491,6 +494,11 @@ body {
   border-radius: 10px 10px 0px 0px;
 }
 
+.card-hotel .titulo__Alojamiento {
+  font-size: 14px;
+  font-weight: 600;
+}
+
 .card-hotel .card__title {
   padding-top: 4px;
   color: #000;
@@ -501,7 +509,7 @@ body {
 .card-hotel .card__text {
   font-size: 14px;
   color: #888888;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .card-hotel .btn__hotel {
@@ -513,7 +521,8 @@ body {
   text-decoration: none;
   border-radius: 1rem;
   height: 35px;
-  font-weight: 600;
+  margin-top: 10px;
+  font-size: 15px;
 }
 
 .card-hotel .btn__hotel:hover {
