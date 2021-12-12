@@ -244,142 +244,25 @@ body {
   font-size: 14px;
 }
 
-/*------------------FOOTER---------------------*/
-.footer {
-  background-color: #292f41;
-  padding-top: 4rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
+/*----------------------------SOBRE NOSOTROS-----------------------------*/
+.titulo__sobreNosotros {
+  font-weight: 600;
+  font-size: 18px;
 }
 
-.sobreNosotros {
-  font-size: 15px;
+.img__sobreNosotros {
+  background-color: yellowgreen;
 }
 
-.enlaces {
-  color: #fff;
-  font-size: 15px;
+.tituto__quieneSomos {
+  font-size: 20px;
+  font-weight: 600;
 }
 
-.enlaces .enlace__inicio {
-  color: #4e66f8;
-}
-
-.enlaces .enlace__inicio:hover {
-  color: #adb7fc;
-}
-
-.enlaces .enlace__sobreNosotros:hover {
-  color: #adb7fc;
-}
-
-.enlaces .enlace__sobreNosotros {
-  color: #4e66f8;
-}
-
-.enlaces .enlace__productos:hover {
-  color: #adb7fc;
-}
-
-.enlaces .enlace__productos {
-  color: #4e66f8;
-}
-
-.enlaces .enlace__contacto {
-  color: #4e66f8;
-}
-
-.enlaces .enlace__contacto:hover {
-  color: #adb7fc;
-}
-
-.redes {
+.p__quienesSomos {
   font-size: 14px;
-  padding-left: 0px;
-}
-
-.redes .redes__titulo {
-  color: #fff;
-}
-
-.redes .redesUno {
-  color: #4e66f8;
-}
-
-.redes .redesUno .redes__iconoUno:hover {
-  color: #adb7fc;
-}
-
-.redes .redesDos {
-  color: #4e66f8;
-}
-
-.redes .redesDos .redes__iconoDos:hover {
-  color: #adb7fc;
-}
-
-.redes .redesTres {
-  color: #4e66f8;
-}
-
-.redes .redesTres .redes__iconoTres:hover {
-  color: #adb7fc;
-}
-
-.redes .redesCuatro {
-  color: #4e66f8;
-}
-
-.redes .redesCuatro .redes__iconoCuatro:hover {
-  color: #adb7fc;
-}
-
-.form-control {
-  width: 100px;
-}
-
-.suscribete {
-  padding-right: 33px;
-  padding-left: 0px;
-}
-
-.suscribete .text__email {
-  font-size: 14px;
-  letter-spacing: 1px;
   line-height: 20px;
   color: #888888;
-}
-
-.suscribete .boton__email {
-  background-color: #4e66f8;
-  color: #fff;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-  text-decoration: none;
-  text-align: center;
-}
-
-.suscribete .boton__enviar {
-  width: 5rem;
-  font-size: 15px;
-}
-
-.suscribete .boton__enviar:hover {
-  color: #4e66f8;
-  background-color: #adb7fc;
-  border: 1px solid #adb7fc;
-}
-
-.derechos {
-  font-size: 15px;
-}
-
-.derechos .derechos__reservados {
-  color: #4e66f8;
-}
-
-.derechos .derechos__reservados:hover {
-  color: #adb7fc;
 }
 
 /*----------------------------SECTION VUELOS-----------------------------*/
@@ -479,7 +362,7 @@ body {
           box-shadow: 0px 0px 20px 5px #cccccc;
 }
 
-/*----------------------------SECTION HOTELES/SECTION DOS/TRES-----------------------------*/
+/*----------------------------SECTION HOTELES/SECTION TRES/RESERVAS-----------------------------*/
 .card-hotel {
   height: 470px;
   border-radius: 10px;
@@ -513,20 +396,28 @@ body {
 }
 
 .card-hotel .btn__hotel {
-  background-color: #292f41;
-  color: #fff;
+  background-color: #fff;
+  color: #292f41;
   -webkit-transition: 0.2s;
   transition: 0.2s;
   text-align: center;
   text-decoration: none;
   border-radius: 1rem;
-  height: 35px;
+  height: 34px;
   margin-top: 10px;
   font-size: 15px;
+  border: 1px solid #292f41;
+  font-weight: 400;
 }
 
 .card-hotel .btn__hotel:hover {
-  background-color: #5e6a8f;
+  background-color: #292f41;
+  color: #fff;
+}
+
+.card-hotel .flechas__btnHotel {
+  font-size: 16px;
+  margin-left: 30px;
 }
 
 .btn-hotel {
@@ -561,8 +452,6 @@ body {
           box-shadow: 0px 0px 20px 5px #cccccc;
 }
 
-/*----------------------------SECTION DOS/VUELOS/RESERVAS/VUELOS-----------------------------*/
-/*----------------------------SECTION/SOBRE NOSOTROS-----------------------------*/
 /*----------------------------SECTION CONTACTO-----------------------------*/
 .formulario {
   background-color: #fff;
@@ -597,6 +486,144 @@ body {
   color: #4e66f8;
   background-color: #adb7fc;
   border: 1px solid #adb7fc;
+}
+
+/*------------------FOOTER---------------------*/
+.footer {
+  background-color: #292f41;
+  padding-top: 4rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.sobreNosotros {
+  font-size: 15px;
+}
+
+.enlaces {
+  color: #fff;
+  font-size: 15px;
+}
+
+.enlaces .enlace__inicio {
+  color: #4e66f8;
+}
+
+.enlaces .enlace__inicio:hover {
+  color: #adb7fc;
+}
+
+.enlaces .enlace__sobreNosotros:hover {
+  color: #adb7fc;
+}
+
+.enlaces .enlace__sobreNosotros {
+  color: #4e66f8;
+}
+
+.enlaces .enlace__productos:hover {
+  color: #adb7fc;
+}
+
+.enlaces .enlace__productos {
+  color: #4e66f8;
+}
+
+.enlaces .enlace__contacto {
+  color: #4e66f8;
+}
+
+.enlaces .enlace__contacto:hover {
+  color: #adb7fc;
+}
+
+.redes {
+  font-size: 12px;
+  padding-left: 0px;
+}
+
+.redes .redes__titulo {
+  color: #fff;
+}
+
+.redes .redesUno {
+  color: #32508F;
+}
+
+.redes .redesUno .redes__iconoUno:hover {
+  color: #adb7fc;
+}
+
+.redes .redesDos {
+  color: #1DA1F2;
+}
+
+.redes .redesDos .redes__iconoDos:hover {
+  color: #adb7fc;
+}
+
+.redes .redesTres {
+  color: #e03056a4;
+}
+
+.redes .redesTres .redes__iconoTres:hover {
+  color: #adb7fc;
+}
+
+.redes .redesCuatro {
+  color: #216EB7;
+}
+
+.redes .redesCuatro .redes__iconoCuatro:hover {
+  color: #adb7fc;
+}
+
+.form-control {
+  width: 100px;
+}
+
+.suscribete {
+  padding-right: 33px;
+  padding-left: 0px;
+}
+
+.suscribete .text__email {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  color: #888888;
+}
+
+.suscribete .boton__email {
+  background-color: #4e66f8;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  text-decoration: none;
+  text-align: center;
+}
+
+.suscribete .boton__enviar {
+  width: 5rem;
+  font-size: 15px;
+}
+
+.suscribete .boton__enviar:hover {
+  color: #4e66f8;
+  background-color: #adb7fc;
+  border: 1px solid #adb7fc;
+}
+
+.derechos {
+  font-size: 15px;
+}
+
+.derechos .derechos__reservados {
+  color: #4e66f8;
+}
+
+.derechos .derechos__reservados:hover {
+  color: #adb7fc;
 }
 
 /*----------------------------MEDIA QUERY-----------------------------*/
