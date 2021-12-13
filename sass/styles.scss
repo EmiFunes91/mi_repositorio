@@ -203,14 +203,13 @@ body {
 
 /*----------------------------SOBRE NOSOTROS-----------------------------*/
 
+.fondo {
+background-color: #EEEEEE;
+}
+
 .titulo__sobreNosotros {
   font-weight: 600;
   font-size: 18px;
-}
-
-.img__sobreNosotros {
-  background-color:yellowgreen;
-  
 }
 
 .tituto__quieneSomos {
@@ -250,7 +249,7 @@ body {
   font-size: 12px;
   line-height: 16px;
   font-weight: 400;
-  margin:0px;
+  margin: 0px;
   padding-top: 10px;
 }
 
@@ -258,7 +257,6 @@ body {
   font-size: 14px;
   letter-spacing: 0.05px;
   line-height: 20px;
-  
 }
 
 .card__textTres {
@@ -269,7 +267,6 @@ body {
 .contenidoPrecio {
   border-top: 1px solid #888888;
 }
-
 
 /*----------------------------SECTION HOTELES/CARD/SECTION UNO-----------------------------*/
 
@@ -376,9 +373,8 @@ body {
   .flechas__btnHotel {
     font-size: 16px;
     margin-left: 30px;
-}
   }
-
+}
 
 .btn-hotel {
   border-top: 1px solid #888888;
@@ -408,7 +404,6 @@ body {
 .card-hotel:hover {
   box-shadow: 0px 0px 20px 5px #cccccc;
 }
-
 
 /*----------------------------SECTION CONTACTO-----------------------------*/
 
@@ -445,7 +440,6 @@ body {
     border: 1px solid $colorDos;
   }
 }
-
 
 /*------------------FOOTER---------------------*/
 
@@ -506,7 +500,7 @@ body {
   }
 
   .redesUno {
-    color: #32508F;
+    color: #32508f;
 
     .redes__iconoUno:hover {
       color: $colorDos;
@@ -514,7 +508,7 @@ body {
   }
 
   .redesDos {
-    color: #1DA1F2;
+    color: #1da1f2;
 
     .redes__iconoDos:hover {
       color: $colorDos;
@@ -524,14 +518,13 @@ body {
   .redesTres {
     color: #e03056a4;
 
-
     .redes__iconoTres:hover {
       color: $colorDos;
     }
   }
 
   .redesCuatro {
-    color: #216EB7;
+    color: #216eb7;
 
     .redes__iconoCuatro:hover {
       color: $colorDos;

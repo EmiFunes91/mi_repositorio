@@ -245,13 +245,13 @@ body {
 }
 
 /*----------------------------SOBRE NOSOTROS-----------------------------*/
+.fondo {
+  background-color: #EEEEEE;
+}
+
 .titulo__sobreNosotros {
   font-weight: 600;
   font-size: 18px;
-}
-
-.img__sobreNosotros {
-  background-color: yellowgreen;
 }
 
 .tituto__quieneSomos {
@@ -547,7 +547,7 @@ body {
 }
 
 .redes .redesUno {
-  color: #32508F;
+  color: #32508f;
 }
 
 .redes .redesUno .redes__iconoUno:hover {
@@ -555,7 +555,7 @@ body {
 }
 
 .redes .redesDos {
-  color: #1DA1F2;
+  color: #1da1f2;
 }
 
 .redes .redesDos .redes__iconoDos:hover {
@@ -571,7 +571,7 @@ body {
 }
 
 .redes .redesCuatro {
-  color: #216EB7;
+  color: #216eb7;
 }
 
 .redes .redesCuatro .redes__iconoCuatro:hover {
