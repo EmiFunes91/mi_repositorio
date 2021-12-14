@@ -24,7 +24,7 @@ body {
 }
 
 .logo {
-  font-size: 19px;
+  font-size: 18px;
   color: $negro;
   font-weight: 600;
   padding-left: 2px;
@@ -49,7 +49,19 @@ body {
   font-weight: 600;
   color: $negro;
   transition: 0.15s;
-  font-size: 16px;
+  font-size: 15px;
+ 
+}
+
+.dropdown-item {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.dropdown-item:hover {
+  color: $blanco;
+  background-color: $fondo;
 }
 
 .nav-link:hover {
@@ -204,7 +216,12 @@ body {
 /*----------------------------SOBRE NOSOTROS-----------------------------*/
 
 .fondo {
-background-color: #EEEEEE;
+  background-color: #eeeeee;
+}
+
+.fondo:hover {
+  box-shadow: 0px 0px 20px 5px #cccccc;
+  transition: 0.2s;
 }
 
 .titulo__sobreNosotros {
@@ -213,13 +230,13 @@ background-color: #EEEEEE;
 }
 
 .tituto__quieneSomos {
-  font-size: 20px;
+  font-size: 21px;
   font-weight: 600;
+  color: $fondo;
 }
 
 .p__quienesSomos {
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 13px;
   color: #888888;
 }
 
@@ -407,38 +424,46 @@ background-color: #EEEEEE;
 
 /*----------------------------SECTION CONTACTO-----------------------------*/
 
-.formulario {
-  background-color: $blanco;
-  color: $colorUno;
-  border: 1px solid $colorUno;
-  max-width: 60%;
-  width: auto;
+.contacto {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  .img__contacto {
+    width: 33rem;
+  }
+
+  .form__contacto {
+    width: 33rem;
+  }
 
   .titulo__contacto {
+    font-size: 30px;
     font-weight: 600;
-    font-size: 40px;
+    color: #444444;
   }
 
-  .borde__formulario {
-    border: 1px solid $colorUno;
+  .botones__contacto {
+    width: 32rem;
   }
 
-  .btn__contacto {
-    background-color: $colorUno;
-    color: $blanco;
-    transition: 0.2s;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 10px;
+  .boton__contacto {
+    color: white;
+    background-color: $fondo;
+    width: 32rem;
     font-weight: 600;
-    width: 100%;
+    letter-spacing: 1px;
   }
 
-  .btn__contacto:hover {
-    color: $colorUno;
-    background-color: $colorDos;
-    border: 1px solid $colorDos;
+  .boton__contacto:hover {
+    background-color: rgb(65, 74, 102);
   }
+}
+.mapa {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 30px;
 }
 
 /*------------------FOOTER---------------------*/
@@ -450,13 +475,18 @@ background-color: #EEEEEE;
   padding-right: 3rem;
 }
 
+.footer__titulo {
+  font-size: 30px;
+
+}
+
 .sobreNosotros {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .enlaces {
   color: $blanco;
-  font-size: 15px;
+  font-size: 14px;
 
   .enlace__inicio {
     color: $colorUno;
@@ -539,6 +569,12 @@ background-color: #EEEEEE;
 .suscribete {
   padding-right: 33px;
   padding-left: 0px;
+  color: $blanco;
+
+  .titulo__suscribete {
+    font-size: 30px;
+    
+  }
 
   .text__email {
     font-size: 14px;
@@ -553,11 +589,14 @@ background-color: #EEEEEE;
     transition: 0.2s;
     text-decoration: none;
     text-align: center;
+    height: 2rem;
   }
 
   .boton__enviar {
     width: 5rem;
-    font-size: 15px;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 4px;
   }
 
   .boton__enviar:hover {
@@ -568,7 +607,7 @@ background-color: #EEEEEE;
 }
 
 .derechos {
-  font-size: 15px;
+  font-size: 14px;
 
   .derechos__reservados {
     color: $colorUno;

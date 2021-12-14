@@ -55,9 +55,6 @@
               </li>
             </ul>
           </div>
-          <div class="iconoCompra btn">
-            <span><i class="fas fa-shopping-cart"></i></span>
-          </div>
         </nav>
       </div>
     </div>
@@ -78,37 +75,42 @@
     </div>
   </section>
 
-  <form class="container p-4 m-5 formulario">
-    <div class="form-group">
-      <h3 class="titulo__contacto text-center">Contáctanos</h3>
-    </div>
-    <div class="form-group">
-      <label for="exampleInputEmail1">Nombre Completo</label>
-      <input type="nombre" class="form-control borde__formulario" id="exampleInputEmail1" aria-describedby="emailHelp"
-        placeholder="Escriba su nombre">
-    </div>
-    <div class="form-group">
-      <label for="exampleInputEmail1">Localidad</label>
-      <input type="localidad" class="form-control borde__formulario" id="exampleInputEmail1"
-        aria-describedby="emailHelp" placeholder="Localidad">
-    </div>
-    <div class="form-group">
-      <label for="exampleInputEmail1">Teléfono / Celular</label>
-      <input type="teléfono" class="form-control borde__formulario" id="exampleInputEmail1" aria-describedby="emailHelp"
-        placeholder="Teléfono / Celular">
-    </div>
-    <div class="form-group">
-      <label for="exampleInputPassword1">Email</label>
-      <input type="email" class="form-control borde__formulario" id="exampleInputPassword1" placeholder="Email">
-    </div>
-    <div class="form-group form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Aceptar términos y condiciones</label>
-    </div>
-    <div class="text-center">
-      <button type="submit" class="btn btn__contacto mt-3">Enviar Formulario</button>
-    </div>
-  </form>
+
+  <!--------------------CONTACTO------------------------>
+
+  <div class="contacto container d-flex justify-content-between">
+    <img class="img__contacto" src="../img/contacto.png" alt="contacto">
+    <form class="form__contacto">
+      <p class="container-fluid titulo__contacto pt-5 pb-3">CONTÁCTANOS</p>
+      <div class="form-floating pb-4">
+        <input type="nombre" class="form-control botones__contacto" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Nombre</label>
+      </div>
+      <div class="form-floating pb-4">
+        <input type="email" class="form-control botones__contacto" id="floatingPassword" placeholder="Email">
+        <label for="floatingPassword">Email</label>
+      </div>
+      <div class="form-floating pb-4">
+        <input type="tel" class="form-control botones__contacto" id="floatingPassword" placeholder="Teléfono">
+        <label for="floatingPassword">Teléfono</label>
+      </div>
+      <div class="form-floating pb-4">
+        <textarea class="form-control botones__contacto" placeholder="Leave a comment here" id="floatingTextarea2"
+          style="height: 100px"></textarea>
+        <label for="floatingTextarea2">Mensaje</label>
+      </div>
+      <button type="submit" class="btn boton__contacto mt-3">Enviar</button>
+    </form>
+  </div>
+
+
+  <!--------------------MAPA------------------------>
+
+  <div class="mapa container">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d9252.928939898355!2d-57.95732723878333!3d-34.921393497354885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x95a2e62b1f0085a1%3A0xbcfc44f0547312e3!2sLa%20Plata%2C%20Provincia%20de%20Buenos%20Aires!3m2!1d-34.9204948!2d-57.9535657!5e0!3m2!1ses!2sar!4v1639415572737!5m2!1ses!2sar"
+      width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
 
   <!------------------FOOTER------------------>
 
@@ -118,14 +120,14 @@
         <div class="col-md-9">
           <div class="row d-flex justify-content-between">
             <div class="sobreNosotros col-md-5 text-white">
-              <h2 class="footer-heading mb-4">Sobre Nosotros</h2>
+              <h2 class="footer__titulo mb-4">Sobre Nosotros</h2>
               <p class="p__sobreNosotros">Somos una agencia de viajes conformada por jovenes profesionales.
                 Nuestra experiencia nos permite ofrecer los mejores destinos brindando atención personalizada y
                 asegurando la satisfacción de nuestros clientes.</p>
             </div>
             <div class="enlaces col-md-3 ml-auto">
-              <h2 class="footer-heading mb-4">Enlaces rápidos</h2>
-              <ul class="list-unstyled text-white">
+              <h2 class="footer__titulo mb-4">Enlaces rápidos</h2>
+              <ul class="list-unstyled">
                 <li><a href="../index.html" class="enlace__inicio smoothscroll text-decoration-none">Inicio</a></li>
                 <li><a href="sobresosotros.html" class="enlace__sobreNosotros smoothscroll text-decoration-none">Sobre
                     Nosotros</a>
@@ -137,7 +139,7 @@
               </ul>
             </div>
             <div class="redes col-md-3">
-              <h2 class="redes__titulo footer-heading mb-4">Síganos</h2>
+              <h2 class="redes__titulo footer__titulo mb-4">Síganos</h2>
               <a href="https://www.facebook.com/emilio.funes.14" target="_blanck" class="redesUno"><i
                   class="redes__iconoUno fab fa-2x fa-facebook-square p-1"></i></span></a>
               <a href="https://twitter.com/emifunes22" target="_blanck" class="redesDos"><i
@@ -150,7 +152,7 @@
           </div>
         </div>
         <div class="suscribete col-md-3">
-          <h2 class="footer-heading mb-4 text-white email ">Suscríbete a nuestro Newsletter</h2>
+          <h2 class="titulo__suscribete mb-4">Suscríbete a nuestro Newsletter</h2>
           <form action="#" method="post" class="footer-subscribe">
             <div class="input-group mb-3 bg-light rounded-1">
               <input type="text" class="text__email form-control p-0" placeholder="Escribir Email"
