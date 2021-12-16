@@ -242,7 +242,7 @@ body {
   padding-bottom: 13px;
 }
 
-.tituto__quieneSomos {
+.titulo__quieneSomos {
   font-size: 21px;
   font-weight: 600;
   color: $fondo;
@@ -385,6 +385,7 @@ body {
     margin-bottom: 1.5rem;
   }
 
+
   .btn__hotel {
     background-color: $blanco;
     color: $fondo;
@@ -518,6 +519,7 @@ body {
 .enlaces {
   color: $blanco;
   font-size: 14px;
+  padding-left: 35px;
 
   .enlace__inicio {
     color: $colorUno;
@@ -723,10 +725,20 @@ body {
 
 /*----------------------------MEDIA QUERY/INDEX.HTML-----------------------------*/
 
-  .ancho-cardMedia {
+.fondocontainer {
+  background-color: $negro;
+
+  .ancho__cardMedia {
     padding-left: 0px;
     padding-right: 0px;
   }
+}
+
+.img-fluid {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
 
   .card-body {
     padding-left: 0px;
@@ -751,7 +763,123 @@ body {
 
 /*----------------------------MEDIA QUERY/SOBRENOSOTROS-----------------------------*/
   
+.titulo__sobreNosotros {
+  font-size: 18px;
+}
 
+
+.titulo__quieneSomos {
+  font-size: 19px;
+  color: $blanco;
+  border-bottom: 1px solid $blanco;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.p__quienesSomos {
+  color: $blanco;
+}
+
+.fondo {
+  background-color: $negro;
+}
+
+/*----------------------------MEDIA QUERY/VUELOS-----------------------------*/
+
+.titulo {
+
+.titulo__reserva {
+  font-size: 18px;
+}
+
+.subTitulo__reserva {
+  font-size: 14px;
+}
+}
+
+.card-body {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.card__Vuelo {
+  color: $blanco;
+}
+
+.card__titleVuelo {
+  font-size: 19px;
+  color: $blanco;
+}
+
+.card__textVuelo {
+  font-size: 13px;
+  margin-bottom: 0.5rem;
+  color: $blanco;
+}
+
+.card__textTres {
+  font-size: 23px;
+  color: $blanco;
+}
+
+.card__textUno {
+  color: $blanco;
+}
+
+.fondo-vuelo {
+  background-color: $negro;
+}
+
+/*----------------------------MEDIA QUERY/HOTELES-----------------------------*/
+
+.fondo-mediaHotel {
+  background-color: $negro;
+  padding: 0px;
+}
+
+.bordes-hotel {
+  padding: 0px;
+}
+
+.card-alojamiento {
+  height: 23rem;
+  margin-top: 20px;
+}
+
+.card__textHotel {
+  font-size: 12px;
+  color: #888888; 
+}
+
+.card-hotel {
+  height: 28rem;
+}
+
+.card-hotel .card__text {
+ font-size: 11px;
+ color: $blanco;
+ 
+}
+
+.card-hotel .card__title {
+  font-size: 16px;
+  color: $blanco;
+  padding-top: 5px;
+}
+
+.titulo__Alojamiento {
+  color: $blanco;
+}
+
+.card-hotel .titulo__Alojamiento {
+  font-size: 13px;
+}
+
+.card-hotel .btn__hotel {
+  height: 29px;
+  font-weight: 600;
+  padding: 3px;
+}
 
 
 
