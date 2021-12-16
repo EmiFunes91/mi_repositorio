@@ -179,16 +179,24 @@ body {
 
 .bloque {
   font-style: normal;
+  border-top: 1px solid $fondo ;
+  border-bottom:1px solid $fondo ;
+  padding-bottom: 13px;
 
   .bloque__parrafo {
     font-weight: 600;
     color: $titulos;
     font-size: 22px;
+    margin-top: 15px;
+    
   }
 
   .bloque__subtitulo {
     color: $rosa;
-    font-size: 16px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    
+    
   }
 }
 
@@ -228,6 +236,10 @@ body {
 .titulo__sobreNosotros {
   font-weight: 600;
   font-size: 18px;
+  border-bottom: 1px solid $fondo;
+  border-top: 1px solid $fondo;
+  padding-top: 13px;
+  padding-bottom: 13px;
 }
 
 .tituto__quieneSomos {
@@ -292,13 +304,15 @@ body {
   margin-top: 20px;
 
   .titulo__reserva {
-    font-size: 22px;
+    font-size: 21px;
     font-weight: 600;
     color: $titulos;
+    border-bottom: 1px solid $fondo;
   }
 
   .subTitulo__reserva {
     font-size: 16px;
+    
   }
 }
 
@@ -306,7 +320,7 @@ body {
   background-color: rgb(238, 238, 238);
   padding-top: 4rem;
   padding-bottom: 4rem;
-  margin-top: 30px;
+  margin-top: 48px;
 }
 
 .card-alojamiento {
@@ -344,6 +358,7 @@ body {
   height: 470px;
   border-radius: 10px;
   transition: all 300ms ease;
+  margin-bottom: 50px;
 
   .card__img {
     max-width: 100%;
@@ -445,6 +460,7 @@ body {
     font-weight: 600;
     color: #444444;
     padding-left: 0px;
+    border-bottom: 1px solid $fondo;
   }
 
   .botones__contacto {
@@ -562,7 +578,7 @@ body {
   }
 
   .redesTres {
-    color: #e03056a4;
+    color: #b33929e8;
 
     .redes__iconoTres:hover {
       color: $colorDos;
@@ -609,10 +625,11 @@ body {
   }
 
   .boton__enviar {
-    width: 5rem;
+    width: 4.5rem;
     font-size: 14px;
     padding-top: 5px;
     padding-bottom: 4px;
+    padding-left: 14px;
   }
 
   .boton__enviar:hover {
@@ -660,26 +677,124 @@ body {
 }
 
 @media only screen and (max-width: 320px) {
+
+/*----------------------------MEDIA QUERY/ENCABEZADO-----------------------------*/
+
+  .logo {
+    font-size: 16px;
   
+   .logo__uno {
+     width: 45px;
+     margin-top: 1px;
+    } 
+  }
+
+  .encabezado {
+    
+  .encabezado__tituloUno {
+    font-size: 35px;
+
+  }
+  
+  .encabezado__titulo {
+    font-size: 15px;
+  }
+
+  .banner__btn {
+    font-size: 13px;
+    height: 40px;
+    width: 9rem;
+    padding-left: 0px;
+    padding-right: 0px;
+    line-height: 40px;
+  }
+}
+
+  .bloque {
+
+    .bloque__parrafo {
+      font-size: 18px;
+    }
+
+    .bloque__subtitulo {
+      font-size: 15px;
+    }
+  }
+
+/*----------------------------MEDIA QUERY/INDEX.HTML-----------------------------*/
+
+  .ancho-cardMedia {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .card-body {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .card {
+    height: 20rem;
+
+    .icono__card {
+      font-size: 35px;
+    }
+
+    .h4__card {
+      font-size: 19px;
+    }
+
+    .p__card {
+      font-size: 13px;
+    }
+}
+
+/*----------------------------MEDIA QUERY/SOBRENOSOTROS-----------------------------*/
+  
+
+
+
+
+  .footer__titulo {
+    font-size: 25px;
+  }
+
   .sobreNosotros {
     padding-left: 0px;
     padding-right: 0px;
     padding-bottom: 15px;
+    font-size: 13px;
   }
 
   .enlaces {
     padding-left: 0px;
     padding-bottom: 15px;
     padding-right: 0px;
+    font-size: 13px;
   }
 
   .redes {
     padding-bottom: 33px;
     padding-right: 0px;
+    font-size: 12px;
   }
-  
+
+  .redes__titulo {
+    margin-bottom: 0px;
+  }
+
+
   .suscribete{
     padding-right: 0px;
+    
+  .titulo__suscribete {
+      font-size: 25px;
+    }
+
+    .boton__enviar {
+      width: 4rem;
+      padding-left: 11px;
+    } 
   }
 
   .row {
@@ -695,6 +810,10 @@ body {
   .derechos {
     padding-left: 0px;
     padding-right: 0px;
+    font-size: 13px;
     
   }
+
+
 }
+

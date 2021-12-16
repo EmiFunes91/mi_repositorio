@@ -222,17 +222,22 @@ body {
 
 .bloque {
   font-style: normal;
+  border-top: 1px solid #292f41;
+  border-bottom: 1px solid #292f41;
+  padding-bottom: 13px;
 }
 
 .bloque .bloque__parrafo {
   font-weight: 600;
   color: #444444;
   font-size: 22px;
+  margin-top: 15px;
 }
 
 .bloque .bloque__subtitulo {
   color: #e83e8c;
-  font-size: 16px;
+  font-size: 15px;
+  letter-spacing: 0.5px;
 }
 
 /*-------------SECTION TRES/CARD/INDEX.HTML--------------*/
@@ -271,6 +276,10 @@ body {
 .titulo__sobreNosotros {
   font-weight: 600;
   font-size: 18px;
+  border-bottom: 1px solid #292f41;
+  border-top: 1px solid #292f41;
+  padding-top: 13px;
+  padding-bottom: 13px;
 }
 
 .tituto__quieneSomos {
@@ -334,9 +343,10 @@ body {
 }
 
 .titulo .titulo__reserva {
-  font-size: 22px;
+  font-size: 21px;
   font-weight: 600;
   color: #444444;
+  border-bottom: 1px solid #292f41;
 }
 
 .titulo .subTitulo__reserva {
@@ -347,7 +357,7 @@ body {
   background-color: #eeeeee;
   padding-top: 4rem;
   padding-bottom: 4rem;
-  margin-top: 30px;
+  margin-top: 48px;
 }
 
 .card-alojamiento {
@@ -388,6 +398,7 @@ body {
   border-radius: 10px;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
+  margin-bottom: 50px;
 }
 
 .card-hotel .card__img {
@@ -493,6 +504,7 @@ body {
   font-weight: 600;
   color: #444444;
   padding-left: 0px;
+  border-bottom: 1px solid #292f41;
 }
 
 .contacto .botones__contacto {
@@ -608,7 +620,7 @@ body {
 }
 
 .redes .redesTres {
-  color: #e03056a4;
+  color: #b33929e8;
 }
 
 .redes .redesTres .redes__iconoTres:hover {
@@ -655,10 +667,11 @@ body {
 }
 
 .suscribete .boton__enviar {
-  width: 5rem;
+  width: 4.5rem;
   font-size: 14px;
   padding-top: 5px;
   padding-bottom: 4px;
+  padding-left: 14px;
 }
 
 .suscribete .boton__enviar:hover {
@@ -704,22 +717,88 @@ body {
 }
 
 @media only screen and (max-width: 320px) {
+  /*----------------------------MEDIA QUERY/ENCABEZADO-----------------------------*/
+  .logo {
+    font-size: 16px;
+  }
+  .logo .logo__uno {
+    width: 45px;
+    margin-top: 1px;
+  }
+  .encabezado .encabezado__tituloUno {
+    font-size: 35px;
+  }
+  .encabezado .encabezado__titulo {
+    font-size: 15px;
+  }
+  .encabezado .banner__btn {
+    font-size: 13px;
+    height: 40px;
+    width: 9rem;
+    padding-left: 0px;
+    padding-right: 0px;
+    line-height: 40px;
+  }
+  .bloque .bloque__parrafo {
+    font-size: 18px;
+  }
+  .bloque .bloque__subtitulo {
+    font-size: 15px;
+  }
+  /*----------------------------MEDIA QUERY/INDEX.HTML-----------------------------*/
+  .ancho-cardMedia {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .card-body {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .card {
+    height: 20rem;
+  }
+  .card .icono__card {
+    font-size: 35px;
+  }
+  .card .h4__card {
+    font-size: 19px;
+  }
+  .card .p__card {
+    font-size: 13px;
+  }
+  /*----------------------------MEDIA QUERY/SOBRENOSOTROS-----------------------------*/
+  .footer__titulo {
+    font-size: 25px;
+  }
   .sobreNosotros {
     padding-left: 0px;
     padding-right: 0px;
     padding-bottom: 15px;
+    font-size: 13px;
   }
   .enlaces {
     padding-left: 0px;
     padding-bottom: 15px;
     padding-right: 0px;
+    font-size: 13px;
   }
   .redes {
     padding-bottom: 33px;
     padding-right: 0px;
+    font-size: 12px;
+  }
+  .redes__titulo {
+    margin-bottom: 0px;
   }
   .suscribete {
     padding-right: 0px;
+  }
+  .suscribete .titulo__suscribete {
+    font-size: 25px;
+  }
+  .suscribete .boton__enviar {
+    width: 4rem;
+    padding-left: 11px;
   }
   .row {
     padding-left: 0px;
@@ -732,6 +811,7 @@ body {
   .derechos {
     padding-left: 0px;
     padding-right: 0px;
+    font-size: 13px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
