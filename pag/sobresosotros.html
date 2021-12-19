@@ -95,7 +95,7 @@
         <img src="../img/quienessomos.png" class="img-fluid rounded-start" alt="sobrenosotros">
       </div>
       <div class="col-md-8">
-        <div class="card-body">
+        <div class="card-body card__sobreNMedia">
           <h5 class="titulo__quieneSomos">Quiénes Somos</h5>
           <p class="p__quienesSomos">Somos una agencia de viajes conformada por profesionales expertos y apasionados por
             lo
@@ -106,9 +106,7 @@
             negocios.
 
             Sabemos que cada cliente es único y por eso nos ocupamos de conocer sus gustos y preferencias, adaptándonos
-            a cada circunstancia, con el fin de superar sus expectativas.
-
-            Ponemos a disposición nuestra experiencia, para que la tuya sea inigualable.</p>
+            a cada circunstancia, con el fin de superar sus expectativas.</p>
         </div>
       </div>
     </div>
@@ -117,7 +115,7 @@
   <div class="fondo container mb-5">
     <div class="row g-0">
       <div class="col-md-8">
-        <div class="card-body">
+        <div class="card-body card__sobreNMedia">
           <h5 class="titulo__quieneSomos">Nuestra visión del turismo</h5>
           <p class="p__quienesSomos">Entendemos que el pasajero es nuestra razón de ser. Trabajamos para superar sus
             expectativas y lograr un boca a boca positivo a través de una correcta interpretación de sus necesidades y
@@ -136,7 +134,7 @@
         <img src="../img/busqueda.png" class="img-fluid rounded-start" alt="sobrenosotros">
       </div>
       <div class="col-md-8">
-        <div class="card-body">
+        <div class="card-body card__sobreNMedia">
           <h5 class="titulo__quieneSomos">Una búsqueda constante…</h5>
           <p class="p__quienesSomos">Estamos en la búsqueda constante de la excelencia, es por ellos que prestamos
             especial atención a las opiniones de nuestros clientes para mejorar la calidad de nuestros servicios.
@@ -195,7 +193,7 @@
               <input type="text" class="text__email form-control p-0" placeholder="Escribir Email"
                 aria-label="Enviar Email" aria-describedby="button-addon2">
               <div class="boton__email input-group-append">
-                <button class="boton__enviar btn text-white" type="button" id="button-addon2">Enviar</button>
+                <button class="boton__enviar btn text-white" type="button" id="button-addon2" onclick="Gracias()">Enviar</button>
               </div>
             </div>
           </form>
@@ -232,6 +230,12 @@
       });
     });
   </script>
+
+<script>
+  function Gracias() {
+    alert("Gracias por suscribirte !")
+  }
+</script>
 </body>
 
 </html>

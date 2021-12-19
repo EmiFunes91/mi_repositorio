@@ -93,10 +93,10 @@
   <!----------SECTION DOS/VUELOS/RESERVAS---------------->
 
   <section class="container fondo-vuelo">
-    <div class="container row p-4 m-0 mt-4 mb-4 justify-content-between">
+    <div class="container margin-Hotelmedia row p-4 m-0 mt-4 mb-4 justify-content-between">
       <div class="card-hotel p-0" style="width: 20rem; cursor: pointer;">
         <img src="../img/vueloCuritiba.png" class="card__img" alt="vueloBrasil">
-        <div class="card-body">
+        <div class="card-body card-VueloMedia">
           <h6 class="card__Vuelo mb-2 d-flex justify-content-between"><i class="fas fa-plane"></i>VUELO</h6>
           <h5 class="card__titleVuelo title-20">Vuelos a Curitiba</h5>
           <p class="card__textVuelo">Saliendo desde Buenos Aires</p>
@@ -111,7 +111,7 @@
 
       <div class="card-hotel p-0" style="width: 20rem; cursor: pointer;">
         <img src="../img/vueloIquique.png" class="card__img" alt="vueloChile">
-        <div class="card-body">
+        <div class="card-body card-VueloMedia">
           <h6 class="card__Vuelo mb-2 d-flex justify-content-between"><i class="fas fa-plane"></i>VUELO</h6>
           <h5 class="card__titleVuelo title-20">Vuelos a Iquique</h5>
           <p class="card__textVuelo">Saliendo desde Buenos Aires</p>
@@ -126,7 +126,7 @@
 
       <div class="card-hotel p-0" style="width: 20rem; cursor: pointer;">
         <img src="../img/vueloBarranquilla.png" class="card__img" alt="vueloColombia">
-        <div class="card-body">
+        <div class="card-body card-VueloMedia">
           <h6 class="card__Vuelo mb-2 d-flex justify-content-between"><i class="fas fa-plane"></i>VUELO</h6>
           <h5 class="card__titleVuelo title-20">Vuelos a Barranquilla</h5>
           <p class="card__textVuelo">Saliendo desde Buenos Aires</p>
@@ -141,7 +141,7 @@
 
       <div class="card-hotel p-0" style="width: 20rem; cursor: pointer;">
         <img src="../img/vueloCuba.png" class="card__img" alt="vueloCuba">
-        <div class="card-body">
+        <div class="card-body card-VueloMedia">
           <h6 class="card__Vuelo mb-2 d-flex justify-content-between"><i class="fas fa-plane"></i>VUELO</h6>
           <h5 class="card__titleVuelo title-20">Vuelos a La Habana</h5>
           <p class="card__textVuelo">Saliendo desde Buenos Aires</p>
@@ -156,7 +156,7 @@
 
       <div class="card-hotel p-0" style="width: 20rem; cursor: pointer;">
         <img src="../img/vueloEcuador.png" class="card__img" alt="vueloEcuador">
-        <div class="card-body">
+        <div class="card-body card-VueloMedia">
           <h6 class="card__Vuelo mb-2 d-flex justify-content-between"><i class="fas fa-plane"></i>VUELO</h6>
           <h5 class="card__titleVuelo title-20">Vuelos a Quito</h5>
           <p class="card__textVuelo">Saliendo desde Buenos Aires</p>
@@ -171,7 +171,7 @@
 
       <div class="card-hotel p-0" style="width: 20rem; cursor: pointer;">
         <img src="../img/vueloEEUU.png" class="card__img" alt="vueloEEUU">
-        <div class="card-body">
+        <div class="card-body card-VueloMedia">
           <h6 class="card__Vuelo mb-2 d-flex justify-content-between"><i class="fas fa-plane"></i>VUELO</h6>
           <h5 class="card__titleVuelo title-20">Vuelos a New York</h5>
           <p class="card__textVuelo">Saliendo desde Buenos Aires</p>
@@ -186,7 +186,7 @@
 
       <div class="card-hotel p-0" style="width: 20rem; cursor: pointer;">
         <img src="../img/vueloMexico.png" class="card__img" alt="vueloMexico">
-        <div class="card-body">
+        <div class="card-body card-VueloMedia">
           <h6 class="card__Vuelo mb-2 d-flex justify-content-between"><i class="fas fa-plane"></i>VUELO</h6>
           <h5 class="card__titleVuelo title-20">Vuelos a Cancún</h5>
           <p class="card__textVuelo">Saliendo desde Buenos Aires</p>
@@ -201,7 +201,7 @@
 
       <div class="card-hotel p-0" style="width: 20rem; cursor: pointer;">
         <img src="../img/vueloHaiti.png" class="card__img" alt="vueloHaití">
-        <div class="card-body">
+        <div class="card-body card-VueloMedia">
           <h6 class="card__Vuelo mb-2 d-flex justify-content-between"><i class="fas fa-plane"></i>VUELO</h6>
           <h5 class="card__titleVuelo title-20">Vuelos a Haití</h5>
           <p class="card__textVuelo">Saliendo desde Buenos Aires</p>
@@ -262,7 +262,7 @@
               <input type="text" class="text__email form-control p-0" placeholder="Escribir Email"
                 aria-label="Enviar Email" aria-describedby="button-addon2">
               <div class="boton__email input-group-append">
-                <button class="boton__enviar btn text-white" type="button" id="button-addon2">Enviar</button>
+                <button class="boton__enviar btn text-white" type="button" id="button-addon2" onclick="Gracias()">Enviar</button>
               </div>
             </div>
           </form>
@@ -299,6 +299,12 @@
       });
     });
   </script>
+
+<script>
+  function Gracias() {
+    alert("Gracias por suscribirte !")
+  }
+</script>
 </body>
 
 </html>

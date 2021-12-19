@@ -98,11 +98,11 @@
 
   <!-------------SECTION TRES/CARD-------------->
 
-  <section class="fondocontainer container-fluid d-flex justify-content-center">
+  <section class="fondocontainer container-fluid d-flex justify-content-between">
     <div class="container ancho__cardMedia">
       <div class="card-group">
-        <div class="card p-4 m-3 border-0">
-          <div class="card-body text-center">
+        <div class="card p-3 m-3 border-0">
+          <div class="card-body text-center card__indexMedia">
             <i class="fas fa-map-marked-alt icono__card p-2"></i>
             <h4 class="h4__card">Encuentra el alquiler perfecto</h4>
             <p class="p__card">Elige los hoteles que más se ajusten a tus gustos y asegúrate el mejor descanso durante
@@ -110,8 +110,8 @@
           </div>
         </div>
 
-        <div class="card p-4 m-3 border-0">
-          <div class="card-body text-center">
+        <div class="card p-3 m-3 border-0">
+          <div class="card-body text-center card__indexMedia">
             <i class="fas fa-credit-card icono__card p-2"></i>
             <h4 class="h4__card">Reserve con confianza</h4>
             <p class="p__card">Tenemos la política de que nuestros clientes deben ser atendidos de la mejor manera
@@ -119,8 +119,8 @@
           </div>
 
         </div>
-        <div class="card p-4 m-3 border-0">
-          <div class="card-body text-center">
+        <div class="card p-3 m-3 border-0">
+          <div class="card-body text-center card__indexMedia">
             <i class="fas fa-hand-holding-heart icono__card p-2"></i>
             <h4 class="h4__card">Disfrutá tus vacaciones</h4>
             <p class="p__card">¡Disfrutá de tus vacaciones, nosotros nos encargamos que no te falte nada! Viajá seguro
@@ -177,7 +177,7 @@
               <input type="text" class="text__email form-control p-0" placeholder="Escribir Email"
                 aria-label="Enviar Email" aria-describedby="button-addon2">
               <div class="boton__email input-group-append">
-                <button class="boton__enviar btn text-white" type="button" id="button-addon2">Enviar</button>
+                <button class="boton__enviar btn text-white" type="button" id="button-addon2" onclick="Gracias()">Enviar</button>
               </div>
             </div>
           </form>
@@ -212,6 +212,12 @@
       });
     });
   </script>
+
+<script>
+  function Gracias() {
+    alert("Gracias por suscribirte !")
+  }
+</script>
 
 
 

@@ -66,7 +66,7 @@
       <div class="row d-flex justify-content-center">
         <div class="col-md-12">
           <div class="encabezado banner-con text-center">
-            <p class="encabezado__titulo banner-des">Completa nuestro formulario para mas información</p>
+            <p class="encabezado__titulo banner-des">Completá nuestro formulario para más información</p>
             <p class="encabezado__tituloUno titulo-uno">Contáctanos</p>
             <a href="contacto.html" target="_blank" class="banner__btn">Suscríbete Gratis</a>
           </div>
@@ -78,10 +78,11 @@
 
   <!--------------------CONTACTO------------------------>
 
-  <div class="contacto container d-flex justify-content-between">
+  <div class="container fondo-mediaContacto">
+  <div class="contacto row d-flex justify-content-around">
     <img class="img__contacto" src="../img/contacto.png" alt="contacto">
     <form class="form__contacto">
-      <p class="container-fluid titulo__contacto pt-4 mb-4">CONTÁCTANOS</p>
+      <p class="titulo__contacto pt-5 mb-5">CONTÁCTANOS</p>
       <div class="form-floating pb-4">
         <input type="nombre" class="form-control botones__contacto" placeholder="name@example.com">
         <label class="texto__contacto" for="floatingInput">Nombre</label>
@@ -102,6 +103,8 @@
       <button type="submit" class="btn boton__contacto mt-1">Enviar</button>
     </form>
   </div>
+</div>
+
 
 
   <!--------------------MAPA------------------------>
@@ -158,7 +161,7 @@
               <input type="text" class="text__email form-control p-0" placeholder="Escribir Email"
                 aria-label="Enviar Email" aria-describedby="button-addon2">
               <div class="boton__email input-group-append">
-                <button class="boton__enviar btn text-white" type="button" id="button-addon2">Enviar</button>
+                <button class="boton__enviar btn text-white" type="button" id="button-addon2" onclick="Gracias()">Enviar</button>
               </div>
             </div>
           </form>
@@ -194,6 +197,12 @@
       });
     });
   </script>
+
+<script>
+  function Gracias() {
+    alert("Gracias por suscribirte !")
+  }
+</script>
 
 </body>
 

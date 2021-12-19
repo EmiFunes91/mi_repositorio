@@ -50,7 +50,6 @@ body {
   color: $negro;
   transition: 0.15s;
   font-size: 15px;
- 
 }
 
 .dropdown-item {
@@ -179,8 +178,8 @@ body {
 
 .bloque {
   font-style: normal;
-  border-top: 1px solid $fondo ;
-  border-bottom:1px solid $fondo ;
+  border-top: 1px solid $fondo;
+  border-bottom: 1px solid $fondo;
   padding-bottom: 13px;
 
   .bloque__parrafo {
@@ -188,22 +187,19 @@ body {
     color: $titulos;
     font-size: 22px;
     margin-top: 15px;
-    
   }
 
   .bloque__subtitulo {
     color: $rosa;
     font-size: 15px;
     letter-spacing: 0.5px;
-    
-    
   }
 }
 
 /*-------------SECTION TRES/CARD/INDEX.HTML--------------*/
 
 .card {
-  height: 18.75rem;
+  height: 18rem;
 
   .icono__card {
     color: $colorUno;
@@ -246,6 +242,7 @@ body {
   font-size: 21px;
   font-weight: 600;
   color: $fondo;
+  border-bottom: 1px solid $negro;
 }
 
 .p__quienesSomos {
@@ -312,7 +309,6 @@ body {
 
   .subTitulo__reserva {
     font-size: 16px;
-    
   }
 }
 
@@ -385,7 +381,6 @@ body {
     margin-bottom: 1.5rem;
   }
 
-
   .btn__hotel {
     background-color: $blanco;
     color: $fondo;
@@ -443,17 +438,21 @@ body {
 /*----------------------------SECTION CONTACTO-----------------------------*/
 
 .contacto {
-  padding-left: 0px;
   padding-right: 0px;
+  padding-left: 0px;
   margin-top: 50px;
   margin-bottom: 50px;
 
   .img__contacto {
-    width: 33rem;
+    width: 35rem;
+    height: 38rem;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .form__contacto {
     width: 33rem;
+    padding-left: 0px;
   }
 
   .titulo__contacto {
@@ -466,17 +465,13 @@ body {
 
   .botones__contacto {
     width: 32rem;
-    
   }
 
   .texto__contacto {
     font-size: 14px;
-    letter-spacing: 1px;
-    line-height: 20px;
-    color: #888888;font-size: 14px;
-    letter-spacing: 1px;
-    line-height: 20px;
     color: #888888;
+    letter-spacing: 1px;
+    line-height: 20px;
   }
 
   .boton__contacto {
@@ -495,7 +490,6 @@ body {
   padding-left: 0px;
   padding-right: 0px;
   margin-bottom: 30px;
-  
 }
 
 /*------------------FOOTER---------------------*/
@@ -508,8 +502,7 @@ body {
 }
 
 .footer__titulo {
-  font-size: 30px;
-
+  font-size: 27px;
 }
 
 .sobreNosotros {
@@ -518,7 +511,7 @@ body {
 
 .enlaces {
   color: $blanco;
-  font-size: 14px;
+  font-size: 13px;
   padding-left: 35px;
 
   .enlace__inicio {
@@ -555,7 +548,7 @@ body {
 }
 
 .redes {
-  font-size: 12px;
+  font-size: 11px;
   padding-left: 0px;
   padding-bottom: 20px;
 
@@ -606,15 +599,16 @@ body {
   color: $blanco;
 
   .titulo__suscribete {
-    font-size: 30px;
-    
+    font-size: 25px;
   }
 
   .text__email {
-    font-size: 14px;
-    letter-spacing: 1px;
-    line-height: 20px;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    line-height: 15px;
     color: #888888;
+    margin: 4px;
+    border: none;
   }
 
   .boton__email {
@@ -623,15 +617,17 @@ body {
     transition: 0.2s;
     text-decoration: none;
     text-align: center;
-    height: 2rem;
+    height: 1.8rem;
   }
 
   .boton__enviar {
     width: 4.5rem;
     font-size: 14px;
-    padding-top: 5px;
-    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-bottom: 0px;
     padding-left: 14px;
+    letter-spacing: 0.5px;
+    
   }
 
   .boton__enviar:hover {
@@ -642,7 +638,7 @@ body {
 }
 
 .derechos {
-  font-size: 14px;
+  font-size: 13px;
 
   .derechos__reservados {
     color: $colorUno;
@@ -656,13 +652,25 @@ body {
 /*----------------------------MEDIA QUERY-----------------------------*/
 
 @media only screen and (min-width: 1200px) {
+  
   .nav-item > .nav-link {
     padding: 5px 20px !important;
     display: block !important;
   }
+
+  .card-alojamiento {
+    height: 25rem;
+    
+  }
+
+  .card-alojamiento .card__text {
+    font-size: 12px;
+  }
 }
 
-@media only screen and (max-width: 992px) {
+/*----------------------------MEDIA QUERY 768px.-----------------------------*/
+
+@media only screen and (max-width: 768px) {
   .header-inner {
     background-color: $blanco !important;
   }
@@ -676,44 +684,47 @@ body {
   .content-banner .first-title {
     font-size: 30px !important;
   }
-}
 
-@media only screen and (max-width: 320px) {
+  .my-navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
 
-/*----------------------------MEDIA QUERY/ENCABEZADO-----------------------------*/
+  .navbar-toggler {
+    padding-bottom: 6px;
+  }
+
+  /*----------------------------MEDIA QUERY/ENCABEZADO-----------------------------*/
 
   .logo {
-    font-size: 16px;
-  
-   .logo__uno {
-     width: 45px;
-     margin-top: 1px;
-    } 
+    font-size: 18px;
+
+    .logo__uno {
+      width: 45px;
+      margin-top: 1px;
+    }
   }
 
   .encabezado {
-    
-  .encabezado__tituloUno {
-    font-size: 35px;
+    .encabezado__tituloUno {
+      font-size: 31px;
+    }
 
-  }
-  
-  .encabezado__titulo {
-    font-size: 15px;
-  }
+    .encabezado__titulo {
+      font-size: 15px;
+    }
 
-  .banner__btn {
-    font-size: 13px;
-    height: 40px;
-    width: 9rem;
-    padding-left: 0px;
-    padding-right: 0px;
-    line-height: 40px;
+    .banner__btn {
+      font-size: 13px;
+      height: 40px;
+      width: 10rem;
+      padding-left: 0px;
+      padding-right: 0px;
+      line-height: 40px;
+    }
   }
-}
 
   .bloque {
-
     .bloque__parrafo {
       font-size: 18px;
     }
@@ -723,26 +734,448 @@ body {
     }
   }
 
-/*----------------------------MEDIA QUERY/INDEX.HTML-----------------------------*/
+  /*----------------------------MEDIA QUERY/INDEX.HTML-----------------------------*/
 
-.fondocontainer {
-  background-color: $negro;
+  .fondocontainer {
+    background-color: #eeeeee;
 
-  .ancho__cardMedia {
+    .card__indexMedia {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+
+    .ancho__cardMedia {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+
+  .img-fluid {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .card-body {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .card {
+    height: 17rem;
+
+    .icono__card {
+      font-size: 28px;
+    }
+
+    .h4__card {
+      font-size: 18px;
+      margin-top: 5px;
+    }
+
+    .p__card {
+      font-size: 12px;
+      margin-top: 5px;
+    }
+  }
+
+  /*----------------------------MEDIA QUERY/SOBRE NOSOTROS-----------------------------*/
+
+  .titulo__sobreNosotros {
+    font-size: 16px;
+  }
+
+  .fondo {
+    background-color: #eeeeee;
+
+    .img-fluid {
+      padding: 0px;
+      height: 13rem;
+    }
+
+    .card__sobreNMedia {
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+      padding-bottom: 0px;
+      background-color: #eeeeee;
+    }
+
+    .titulo__quieneSomos {
+      font-size: 19px;
+      color: $negro;
+      border-bottom: 1px solid $negro;
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+    }
+
+    .p__quienesSomos {
+      color: #888888;
+      font-size: 12px;
+      margin-bottom: 9px;
+    }
+  }
+
+  /*----------------------------MEDIA QUERY/VUELOS-----------------------------*/
+
+  .titulo {
+    .titulo__reserva {
+      font-size: 18px;
+    }
+
+    .subTitulo__reserva {
+      font-size: 14px;
+    }
+  }
+
+  .card-VueloMedia {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    border-radius: 10px;
+  }
+
+  .card__Vuelo {
+    color: $negro;
+  }
+
+  .card__titleVuelo {
+    font-size: 19px;
+    color: $negro;
+  }
+
+  .card__textVuelo {
+    font-size: 13px;
+    margin-bottom: 0.5rem;
+    color: $negro;
+  }
+
+  .card__textTres {
+    font-size: 23px;
+    color: $negro;
+  }
+
+  .card__textUno {
+    color: $negro;
+    padding-top: 7px;
+  }
+
+  .fondo-vuelo {
     padding-left: 0px;
     padding-right: 0px;
   }
+
+  .margin-Hotelmedia {
+    margin-bottom: 0px !important;
+  }
+
+  /*----------------------------MEDIA QUERY/HOTELES-----------------------------*/
+
+  .fondo-mediaHotel {
+    padding: 0px;
+  }
+
+  .padding-fondo {
+    padding-top: 0px !important;
+    padding-bottom: 1rem !important;
+  }
+
+  .card-HotelMedia {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .bordes-hotel {
+    padding: 0px;
+    
+  }
+
+  .bordes-hotelMedia {
+    width: 50%;
+  }
+
+  .card-alojamiento {
+    height: 17rem;
+    margin-top: 20px;
+  }
+
+  .card-alojamiento .card__text {
+    font-size: 12px;
+    color: #888888;
+  }
+
+  .card__textHotel {
+    font-size: 12px;
+    color: #888888;
+  }
+
+  .card-hotel {
+    height: 28rem;
+  }
+
+  .card-hotel .card__text {
+    font-size: 12px;
+    color: #888888;
+  }
+
+  .card-hotel .card__title {
+    font-size: 17px;
+    color: $negro;
+    padding-top: 7px;
+  }
+
+  .titulo__Alojamiento {
+    color: $negro;
+  }
+
+  .card-hotel .titulo__Alojamiento {
+    font-size: 13px;
+  }
+
+  .card-hotel .btn__hotel {
+    height: 1.8rem;
+    font-weight: 600;
+    padding: 3px;
+    margin-top: 17px;
+  }
+
+  /*----------------------------MEDIA QUERY/CONTACTO-----------------------------*/
+
+  .fondo-mediaContacto {
+    margin-top: 10px;
+  }
+
+  .contacto {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    .img__contacto {
+      height: 25rem;
+      width: 80%;
+      padding-top: 15px;
+      }
+
+    .form__contacto {
+      max-width: 100%;
+      width: 35rem;
+      padding-right: 0px;
+    }
+
+    .titulo__contacto {
+      font-size: 27px;
+      font-weight: 600;
+      color: $fondo;
+      border-bottom: 1px solid $fondo;
+      padding-top: 35px !important;
+    }
+
+    .botones__contacto {
+      width: 34rem;
+      height: 2.5rem;
+      margin-left: 5px;
+    
+    }
+
+    .texto__contacto {
+      font-size: 13px;
+      color: #888888;
+      letter-spacing: 1px;
+      line-height: 9px;
+    }
+
+    .boton__contacto {
+      color: $blanco;
+      background-color: $fondo;
+      letter-spacing: 0.5px;
+      font-weight: 600;
+      height: 1.9rem;
+      line-height: 18px;
+      border-radius: 10px;
+      margin-left: 19px;
+      
+    }
+
+    .boton__contacto:hover {
+      color: $blanco;
+      background-color: rgb(65, 74, 102);
+    }
+  }
+  .mapa {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    
+  }
+
+  /*----------------------------MEDIA QUERY/FOOTER-----------------------------*/
+
+.footer {
+  padding-top: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
-.img-fluid {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  .footer__titulo {
+    font-size: 22px;
+  }
+
+  .sobreNosotros {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+    font-size: 12px;
+  }
+
+  .enlaces {
+    padding-left: 0px;
+    padding-bottom: 15px;
+    padding-right: 0px;
+    font-size: 12px;
+  }
+
+  .redes {
+    padding-bottom: 33px;
+    padding-right: 0px;
+    margin-right: 5px;
+    font-size: 9px;
+  }
+
+  .redes__titulo {
+    margin-bottom: 0px;
+  }
+
+  .suscribete {
+    padding-right: 0px;
+
+    .titulo__suscribete {
+      font-size: 20px;
+    }
+
+    .text__email {
+      font-size: 12px !important;
+      margin: 1px !important;
+    }
+
+    .boton__email {
+      height: 26px;
+    }
+
+    .boton__enviar {
+      width: 3.2rem;
+      padding-left: 5px;
+      font-size: 13px;
+      line-height: 0px;
+    }
+
+  }
+
+  .row {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .derechos-s {
+    padding: 0px;
+    margin-left: 11px;
+  }
+
+  .derechos {
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 12px;
+  }
 
 }
+
+/*----------------------------MEDIA QUERY 320px.-----------------------------*/
+
+@media only screen and (max-width: 320px) {
+  .header-inner {
+    background-color: $blanco !important;
+  }
+  .nav-item > .nav-link {
+    color: $negro !important;
+  }
+  .logo {
+    color: $negro !important;
+    font-weight: 600 !important;
+  }
+  .content-banner .first-title {
+    font-size: 30px !important;
+  }
+
+  .my-navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .navbar-toggler {
+    padding-bottom: 6px;
+  }
+
+  /*----------------------------MEDIA QUERY/ENCABEZADO-----------------------------*/
+
+  .logo {
+    font-size: 16px;
+
+    .logo__uno {
+      width: 40px;
+      padding-top: 5px;
+      margin-bottom: 4px;
+    }
+  }
+
+  .encabezado {
+    .encabezado__tituloUno {
+      font-size: 35px;
+    }
+
+    .encabezado__titulo {
+      font-size: 15px;
+    }
+
+    .banner__btn {
+      font-size: 13px;
+      height: 40px;
+      width: 9rem;
+      padding-left: 0px;
+      padding-right: 0px;
+      line-height: 40px;
+    }
+  }
+
+  .bloque {
+    .bloque__parrafo {
+      font-size: 18px;
+    }
+
+    .bloque__subtitulo {
+      font-size: 15px;
+    }
+  }
+
+  /*----------------------------MEDIA QUERY/INDEX.HTML-----------------------------*/
+
+  .fondocontainer {
+    background-color: #eeeeee;
+
+    .ancho__cardMedia {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+
+  .img-fluid {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 
   .card-body {
     padding-left: 0px;
     padding-right: 0px;
+    background-color: $blanco;
   }
 
   .card {
@@ -754,134 +1187,236 @@ body {
 
     .h4__card {
       font-size: 19px;
+      margin-top: 9px;
     }
 
     .p__card {
       font-size: 13px;
+      margin-top: 15px;
     }
-}
+  }
 
-/*----------------------------MEDIA QUERY/SOBRENOSOTROS-----------------------------*/
-  
-.titulo__sobreNosotros {
-  font-size: 18px;
-}
+  /*----------------------------MEDIA QUERY/SOBRE NOSOTROS-----------------------------*/
 
+  .titulo__sobreNosotros {
+    font-size: 16px;
+  }
 
-.titulo__quieneSomos {
-  font-size: 19px;
-  color: $blanco;
-  border-bottom: 1px solid $blanco;
-  margin-bottom: 10px;
-  padding-bottom: 5px;
-}
+  .titulo__quieneSomos {
+    font-size: 19px;
+    color: $negro;
+    border-bottom: 1px solid $negro;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+  }
 
-.p__quienesSomos {
-  color: $blanco;
-}
+  .p__quienesSomos {
+    color: #888888;
+  }
 
-.fondo {
-  background-color: $negro;
-}
+  .fondo {
+    background-color: $blanco;
+  }
 
-/*----------------------------MEDIA QUERY/VUELOS-----------------------------*/
+  /*----------------------------MEDIA QUERY/VUELOS-----------------------------*/
 
-.titulo {
+  .titulo {
+    .titulo__reserva {
+      font-size: 18px;
+    }
 
-.titulo__reserva {
-  font-size: 18px;
-}
+    .subTitulo__reserva {
+      font-size: 14px;
+    }
+  }
 
-.subTitulo__reserva {
-  font-size: 14px;
-}
-}
+  .card-body {
+    border-radius: 10px;
+  }
 
-.card-body {
-  padding-left: 10px;
-  padding-right: 10px;
-}
+  .card-VueloMedia {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-bottom: 10px;
+  }
 
-.card__Vuelo {
-  color: $blanco;
-}
+  .card__Vuelo {
+    color: $negro;
+  }
 
-.card__titleVuelo {
-  font-size: 19px;
-  color: $blanco;
-}
+  .card__titleVuelo {
+    font-size: 19px;
+    color: $negro;
+  }
 
-.card__textVuelo {
-  font-size: 13px;
-  margin-bottom: 0.5rem;
-  color: $blanco;
-}
+  .card__textVuelo {
+    font-size: 13px;
+    margin-bottom: 0.5rem;
+    color: $negro;
+  }
 
-.card__textTres {
-  font-size: 23px;
-  color: $blanco;
-}
+  .card__textTres {
+    font-size: 23px;
+    color: $negro;
+  }
 
-.card__textUno {
-  color: $blanco;
-}
+  .card__textUno {
+    color: $negro;
+  }
 
-.fondo-vuelo {
-  background-color: $negro;
-}
+  .fondo-vuelo {
+    background-color: #eeeeee;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 
-/*----------------------------MEDIA QUERY/HOTELES-----------------------------*/
+  /*----------------------------MEDIA QUERY/HOTELES-----------------------------*/
 
-.fondo-mediaHotel {
-  background-color: $negro;
-  padding: 0px;
-}
+  .padding-fondo {
+    padding-top: 10px !important;
+    padding-bottom: 25px !important;
+  }
 
-.bordes-hotel {
-  padding: 0px;
-}
+  .fondo-mediaHotel {
+    background-color: #eeeeee;
+    padding: 0px;
+  }
 
-.card-alojamiento {
-  height: 23rem;
-  margin-top: 20px;
-}
+  .card-HotelMedia {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
 
-.card__textHotel {
-  font-size: 12px;
-  color: #888888; 
-}
+  .bordes-hotel {
+    padding: 0px;
+    width: 100%;
+  }
 
-.card-hotel {
-  height: 28rem;
-}
+  .card-alojamiento {
+    height: 23rem;
+    margin-top: 20px;
+    margin-left: 14px;
+  }
 
-.card-hotel .card__text {
- font-size: 11px;
- color: $blanco;
- 
-}
+  .card-alojamiento .card__text {
+    font-size: 12px;
+  }
 
-.card-hotel .card__title {
-  font-size: 16px;
-  color: $blanco;
-  padding-top: 5px;
-}
+  .card__textHotel {
+    font-size: 12px;
+    color: #888888;
+  }
 
-.titulo__Alojamiento {
-  color: $blanco;
-}
+  .card-hotel {
+    height: 28rem;
+  }
 
-.card-hotel .titulo__Alojamiento {
-  font-size: 13px;
-}
+  .card-hotel .card__text {
+    font-size: 12px;
+    color: #888888;
+  }
 
-.card-hotel .btn__hotel {
-  height: 29px;
-  font-weight: 600;
-  padding: 3px;
-}
+  .card-hotel .card__title {
+    font-size: 16px;
+    color: $negro;
+    padding-top: 5px;
+  }
 
+  .titulo__Alojamiento {
+    color: $negro;
+  }
 
+  .card-hotel .titulo__Alojamiento {
+    font-size: 13px;
+  }
+
+  .card-hotel .btn__hotel {
+    height: 29px;
+    font-weight: 600;
+    padding: 3px;
+  }
+
+  .margin-Hotelmedia {
+    margin-bottom: 0px !important;
+  }
+
+  /*----------------------------MEDIA QUERY/CONTACTO-----------------------------*/
+
+  .fondo-mediaContacto {
+    background-color: #eeeeee;
+    margin-top: 10px;
+  }
+
+  .contacto {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    .img__contacto {
+      width: 20rem;
+      height: 20rem;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 15px;
+    }
+
+    .form__contacto {
+      width: 33rem;
+      padding-left: 0px;
+    }
+
+    .titulo__contacto {
+      font-size: 25px;
+      font-weight: 600;
+      color: $fondo;
+      padding-left: 10px;
+      border-bottom: 1px solid $fondo;
+    }
+
+    .botones__contacto {
+      width: 19rem;
+      margin-left: 8px;
+      height: 2.5rem;
+    }
+
+    .texto__contacto {
+      font-size: 13px;
+      color: #888888;
+      letter-spacing: 1px;
+      line-height: 9px;
+    }
+
+    .boton__contacto {
+      color: $blanco;
+      background-color: $fondo;
+      width: 18rem;
+      letter-spacing: 0.5px;
+      font-weight: 600;
+      margin-left: 16px;
+      margin-bottom: 15px;
+      height: 30px;
+      line-height: 15px;
+      border-radius: 10px;
+      font-size: 14px;
+    }
+
+    .boton__contacto:hover {
+      color: $blanco;
+      background-color: rgb(65, 74, 102);
+    }
+  }
+  .mapa {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 34px;
+    padding-bottom: 20px;
+    margin-bottom: 4px;
+    margin-top: 10px;
+    background-color: #eeeeee;
+  }
+
+  /*----------------------------MEDIA QUERY/FOOTER-----------------------------*/
 
   .footer__titulo {
     font-size: 25px;
@@ -911,18 +1446,17 @@ body {
     margin-bottom: 0px;
   }
 
-
-  .suscribete{
+  .suscribete {
     padding-right: 0px;
-    
-  .titulo__suscribete {
+
+    .titulo__suscribete {
       font-size: 25px;
     }
 
     .boton__enviar {
       width: 4rem;
       padding-left: 11px;
-    } 
+    }
   }
 
   .row {
@@ -939,9 +1473,5 @@ body {
     padding-left: 0px;
     padding-right: 0px;
     font-size: 13px;
-    
   }
-
-
 }
-
