@@ -1030,6 +1030,9 @@ body {
     padding-left: 0px;
     padding-right: 0px;
   }
+  .derechos-Media {
+    margin-top: 0px !important;
+  }
   .derechos-s {
     padding: 0px;
     margin-left: 11px;
