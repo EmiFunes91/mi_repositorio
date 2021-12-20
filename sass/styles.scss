@@ -631,7 +631,6 @@ body {
     padding-bottom: 1px;
     padding-left: 14px;
     letter-spacing: 0.5px;
-    
   }
 
   .boton__enviar:hover {
@@ -655,7 +654,7 @@ body {
 
 /*----------------------------MEDIA QUERY 320px.-----------------------------*/
 
-@media only screen and (min-width: 320px) and (max-width: 375px)  {
+@media only screen and (min-width: 320px) and (max-width: 375px) {
   .header-inner {
     background-color: $blanco !important;
   }
@@ -773,19 +772,16 @@ body {
     border-bottom: 1px solid $negro;
     margin-bottom: 10px;
     padding-bottom: 5px;
-   
   }
 
   .p__quienesSomos {
     color: #888888;
     margin-bottom: 0px;
-    
   }
 
   .fondo {
     background-color: $blanco;
   }
-
 
   /*----------------------------MEDIA QUERY/VUELOS-----------------------------*/
 
@@ -905,7 +901,6 @@ body {
     height: 29px;
     font-weight: 600;
     padding: 3px;
-    
   }
 
   .margin-Hotelmedia {
@@ -948,8 +943,9 @@ body {
     }
 
     .botones__contacto {
-      width: 19rem !important;
-      margin-left: 8px;
+      max-width: 100%;
+      width: 22rem !important;
+      margin-left: 6px;
       height: 2.5rem;
     }
 
@@ -990,7 +986,6 @@ body {
   }
 
   /*----------------------------MEDIA QUERY/FOOTER-----------------------------*/
-
 
   .footer__titulo {
     font-size: 22px;
@@ -1052,13 +1047,11 @@ body {
   .derechos-Media {
     margin-top: 0px !important;
   }
-
 }
 
 /*----------------------------MEDIA QUERY 375px.-----------------------------*/
 
 @media only screen and (min-width: 375px) and (max-width: 425px) {
-
   .header-inner {
     background-color: $blanco !important;
   }
@@ -1081,7 +1074,7 @@ body {
   .navbar-toggler {
     padding-bottom: 6px;
   }
-  
+
   /*----------------------------MEDIA QUERY/ENCABEZADO-----------------------------*/
 
   .logo {
@@ -1238,7 +1231,6 @@ body {
     padding-left: 0px;
     padding-right: 0px;
   }
-
 
   /*----------------------------MEDIA QUERY/HOTELES-----------------------------*/
 
@@ -1466,7 +1458,6 @@ body {
   .derechos-Media {
     margin-top: 0px !important;
   }
-
 }
 
 /*----------------------------MEDIA QUERY 768px.-----------------------------*/
@@ -1668,7 +1659,6 @@ body {
     margin-bottom: 0px !important;
   }
 
-
   /*----------------------------MEDIA QUERY/HOTELES-----------------------------*/
 
   .fondo-mediaHotel {
@@ -1688,7 +1678,6 @@ body {
 
   .bordes-hotel {
     padding: 0px;
-    
   }
 
   .bordes-hotelMedia {
@@ -1756,7 +1745,7 @@ body {
       height: 27rem;
       width: 80%;
       padding-top: 15px;
-      }
+    }
 
     .form__contacto {
       max-width: 100%;
@@ -1776,7 +1765,6 @@ body {
       width: 34rem;
       height: 2.5rem;
       margin-left: 5px;
-    
     }
 
     .texto__contacto {
@@ -1796,7 +1784,6 @@ body {
       border-radius: 10px;
       margin-left: 19.5px;
       width: 32rem;
-      
     }
 
     .boton__contacto:hover {
@@ -1812,16 +1799,15 @@ body {
     margin-bottom: 30px;
     margin-top: 10px;
     background-color: $blanco;
-    
   }
 
   /*----------------------------MEDIA QUERY/FOOTER-----------------------------*/
 
-.footer {
-  padding-top: 3rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
+  .footer {
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 
   .footer__titulo {
     font-size: 22px;
@@ -1874,7 +1860,6 @@ body {
       font-size: 13px;
       line-height: 0px;
     }
-
   }
 
   .row {
@@ -1896,13 +1881,11 @@ body {
     padding-right: 0px;
     font-size: 12px;
   }
-
 }
 
 /*----------------------------MEDIA QUERY-----------------------------*/
 
 @media only screen and (min-width: 1200px) {
-  
   .nav-item > .nav-link {
     padding: 5px 20px !important;
     display: block !important;
@@ -1910,11 +1893,9 @@ body {
 
   .card-alojamiento {
     height: 25rem;
-    
   }
 
   .card-alojamiento .card__text {
     font-size: 12px;
   }
 }
-

@@ -929,8 +929,9 @@ body {
     border-bottom: 1px solid #292f41;
   }
   .contacto .botones__contacto {
-    width: 19rem !important;
-    margin-left: 8px;
+    max-width: 100%;
+    width: 22rem !important;
+    margin-left: 6px;
     height: 2.5rem;
   }
   .contacto .texto__contacto {
