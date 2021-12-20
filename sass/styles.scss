@@ -773,7 +773,7 @@ body {
     border-bottom: 1px solid $negro;
     margin-bottom: 10px;
     padding-bottom: 5px;
-    
+   
   }
 
   .p__quienesSomos {
@@ -781,6 +781,11 @@ body {
     margin-bottom: 0px;
     
   }
+
+  .fondo {
+    background-color: $blanco;
+  }
+
 
   /*----------------------------MEDIA QUERY/VUELOS-----------------------------*/
 
@@ -1051,7 +1056,7 @@ body {
 
 /*----------------------------MEDIA QUERY 375px.-----------------------------*/
 
-@media only screen and (max-width: 375px) {
+@media only screen and (min-width: 375px) and (max-width: 425px) {
 
   .header-inner {
     background-color: $blanco !important;
@@ -1458,7 +1463,7 @@ body {
 
 /*----------------------------MEDIA QUERY 768px.-----------------------------*/
 
-@media only screen and (min-width: 768px) and (max-width: 940px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .header-inner {
     background-color: $blanco !important;
   }
