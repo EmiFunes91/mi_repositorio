@@ -655,7 +655,7 @@ body {
 
 /*----------------------------MEDIA QUERY 320px.-----------------------------*/
 
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 320px) and (max-width: 375px)  {
   .header-inner {
     background-color: $blanco !important;
   }
@@ -1336,7 +1336,7 @@ body {
     }
 
     .form__contacto {
-      width: 33rem;
+      width: 25rem;
       padding-left: 0px;
     }
 
