@@ -1044,6 +1044,314 @@ body {
   }
 }
 
+/*----------------------------MEDIA QUERY 375px.-----------------------------*/
+@media only screen and (max-width: 375px) {
+  .header-inner {
+    background-color: #fff !important;
+  }
+  .nav-item > .nav-link {
+    color: #000 !important;
+  }
+  .logo {
+    color: #000 !important;
+    font-weight: 600 !important;
+  }
+  .content-banner .first-title {
+    font-size: 30px !important;
+  }
+  .my-navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .navbar-toggler {
+    padding-bottom: 6px;
+  }
+  /*----------------------------MEDIA QUERY/ENCABEZADO-----------------------------*/
+  .logo {
+    font-size: 16px;
+  }
+  .logo .logo__uno {
+    width: 40px;
+    padding-top: 5px;
+    margin-bottom: 4px;
+  }
+  .encabezado .encabezado__tituloUno {
+    font-size: 35px;
+  }
+  .encabezado .encabezado__titulo {
+    font-size: 15px;
+  }
+  .encabezado .banner__btn {
+    font-size: 13px;
+    height: 40px;
+    width: 9rem;
+    padding-left: 0px;
+    padding-right: 0px;
+    line-height: 40px;
+  }
+  .bloque .bloque__parrafo {
+    font-size: 18px;
+  }
+  .bloque .bloque__subtitulo {
+    font-size: 15px;
+  }
+  /*----------------------------MEDIA QUERY/INDEX.HTML-----------------------------*/
+  .fondocontainer {
+    background-color: #eeeeee;
+  }
+  .fondocontainer .ancho__cardMedia {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .img-fluid {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .card-body {
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #fff;
+  }
+  .card {
+    height: 20rem;
+  }
+  .card .icono__card {
+    font-size: 35px;
+  }
+  .card .h4__card {
+    font-size: 19px;
+    margin-top: 9px;
+  }
+  .card .p__card {
+    font-size: 13px;
+    margin-top: 15px;
+  }
+  /*----------------------------MEDIA QUERY/SOBRE NOSOTROS-----------------------------*/
+  .titulo__sobreNosotros {
+    font-size: 16px;
+  }
+  .titulo__quieneSomos {
+    font-size: 19px;
+    color: #000;
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+  }
+  .p__quienesSomos {
+    color: #888888;
+  }
+  .fondo {
+    background-color: #fff;
+  }
+  /*----------------------------MEDIA QUERY/VUELOS-----------------------------*/
+  .titulo .titulo__reserva {
+    font-size: 18px;
+  }
+  .titulo .subTitulo__reserva {
+    font-size: 14px;
+  }
+  .card-body {
+    border-radius: 10px;
+  }
+  .card-VueloMedia {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-bottom: 10px;
+  }
+  .card__Vuelo {
+    color: #000;
+  }
+  .card__titleVuelo {
+    font-size: 19px;
+    color: #000;
+  }
+  .card__textVuelo {
+    font-size: 13px;
+    margin-bottom: 0.5rem;
+    color: #000;
+  }
+  .card__textTres {
+    font-size: 23px;
+    color: #000;
+  }
+  .card__textUno {
+    color: #000;
+  }
+  .fondo-vuelo {
+    background-color: #eeeeee;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  /*----------------------------MEDIA QUERY/HOTELES-----------------------------*/
+  .padding-fondo {
+    padding-top: 10px !important;
+    padding-bottom: 25px !important;
+  }
+  .fondo-mediaHotel {
+    background-color: #eeeeee;
+    padding: 0px;
+  }
+  .card-HotelMedia {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .bordes-hotel {
+    padding: 0px;
+    width: 100%;
+  }
+  .card-alojamiento {
+    height: 23rem;
+    margin-top: 20px;
+    margin-left: 14px;
+  }
+  .card-alojamiento .card__text {
+    font-size: 12px;
+  }
+  .card__textHotel {
+    font-size: 12px;
+    color: #888888;
+  }
+  .card-hotel {
+    height: 28rem;
+  }
+  .card-hotel .card__text {
+    font-size: 12px;
+    color: #888888;
+  }
+  .card-hotel .card__title {
+    font-size: 16px;
+    color: #000;
+    padding-top: 5px;
+  }
+  .titulo__Alojamiento {
+    color: #000;
+  }
+  .card-hotel .titulo__Alojamiento {
+    font-size: 13px;
+  }
+  .card-hotel .btn__hotel {
+    height: 29px;
+    font-weight: 600;
+    padding: 3px;
+  }
+  .margin-Hotelmedia {
+    margin-bottom: 0px !important;
+  }
+  /*----------------------------MEDIA QUERY/CONTACTO-----------------------------*/
+  .fondo-mediaContacto {
+    background-color: #eeeeee;
+    margin-top: 10px;
+  }
+  .contacto {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .contacto .img__contacto {
+    width: 20rem;
+    height: 20rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+  }
+  .contacto .form__contacto {
+    width: 33rem;
+    padding-left: 0px;
+  }
+  .contacto .titulo__contacto {
+    font-size: 25px;
+    font-weight: 600;
+    color: #292f41;
+    padding-left: 10px;
+    border-bottom: 1px solid #292f41;
+  }
+  .contacto .botones__contacto {
+    width: 19rem;
+    margin-left: 8px;
+    height: 2.5rem;
+  }
+  .contacto .texto__contacto {
+    font-size: 13px;
+    color: #888888;
+    letter-spacing: 1px;
+    line-height: 9px;
+  }
+  .contacto .boton__contacto {
+    color: #fff;
+    background-color: #292f41;
+    width: 18rem;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    margin-left: 16px;
+    margin-bottom: 15px;
+    height: 30px;
+    line-height: 15px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+  .contacto .boton__contacto:hover {
+    color: #fff;
+    background-color: #414a66;
+  }
+  .mapa {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 34px;
+    padding-bottom: 20px;
+    margin-bottom: 4px;
+    margin-top: 10px;
+    background-color: #eeeeee;
+  }
+  /*----------------------------MEDIA QUERY/FOOTER-----------------------------*/
+  .footer__titulo {
+    font-size: 25px;
+  }
+  .sobreNosotros {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+    font-size: 13px;
+  }
+  .enlaces {
+    padding-left: 0px;
+    padding-bottom: 15px;
+    padding-right: 0px;
+    font-size: 13px;
+  }
+  .redes {
+    padding-bottom: 33px;
+    padding-right: 0px;
+    font-size: 12px;
+  }
+  .redes__titulo {
+    margin-bottom: 0px;
+  }
+  .suscribete {
+    padding-right: 0px;
+  }
+  .suscribete .titulo__suscribete {
+    font-size: 25px;
+  }
+  .suscribete .boton__enviar {
+    width: 4rem;
+    padding-left: 11px;
+  }
+  .row {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .derechos-s {
+    padding: 0px;
+    margin-left: 11px;
+  }
+  .derechos {
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 13px;
+  }
+}
+
 /*----------------------------MEDIA QUERY 320px.-----------------------------*/
 @media only screen and (max-width: 320px) {
   .header-inner {
