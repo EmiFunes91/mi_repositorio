@@ -855,6 +855,7 @@ body {
     padding-left: 10px !important;
     padding-right: 10px !important;
     height: 13.7rem;
+    border-radius: 0px 0px 10px 10px;
   }
 
   .bordes-hotel {
@@ -1198,7 +1199,7 @@ body {
   }
 
   .card-body {
-    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px;
     padding-bottom: 28px;
   }
 
@@ -1314,6 +1315,9 @@ body {
     margin-bottom: 0px !important;
     padding-left: 27px !important;
     margin-right: 0px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
   }
 
   /*----------------------------MEDIA QUERY/CONTACTO-----------------------------*/
@@ -1626,7 +1630,7 @@ body {
   .card-VueloMedia {
     padding-left: 10px !important;
     padding-right: 10px !important;
-    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px;
   }
 
   .card__Vuelo {

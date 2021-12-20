@@ -854,6 +854,7 @@ body {
     padding-left: 10px !important;
     padding-right: 10px !important;
     height: 13.7rem;
+    border-radius: 0px 0px 10px 10px;
   }
   .bordes-hotel {
     padding: 0px;
@@ -1124,7 +1125,7 @@ body {
     font-size: 14px;
   }
   .card-body {
-    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px;
     padding-bottom: 28px;
   }
   .card-VueloMedia {
@@ -1217,6 +1218,16 @@ body {
     margin-bottom: 0px !important;
     padding-left: 27px !important;
     margin-right: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   /*----------------------------MEDIA QUERY/CONTACTO-----------------------------*/
   .fondo-mediaContacto {
@@ -1466,7 +1477,7 @@ body {
   .card-VueloMedia {
     padding-left: 10px !important;
     padding-right: 10px !important;
-    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px;
   }
   .card__Vuelo {
     color: #000;
