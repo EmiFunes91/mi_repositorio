@@ -1176,9 +1176,10 @@ body {
     width: 100%;
   }
   .card-alojamiento {
-    height: 23rem;
+    max-width: 100%;
+    height: 20rem;
     margin-top: 20px;
-    margin-left: 15px;
+    margin-left: 16px;
   }
   .card-alojamiento .card__text {
     font-size: 12px;
@@ -1188,6 +1189,7 @@ body {
     color: #888888;
   }
   .card-hotel {
+    max-width: 100%;
     height: 28rem;
   }
   .card-hotel .card__text {
@@ -1246,7 +1248,8 @@ body {
     border-bottom: 1px solid #292f41;
   }
   .contacto .botones__contacto {
-    width: 22.5rem;
+    max-width: 100%;
+    width: 22.5rem !important;
     margin-left: 8px;
     height: 2.5rem;
   }
@@ -1257,9 +1260,10 @@ body {
     line-height: 9px;
   }
   .contacto .boton__contacto {
+    max-width: 100%;
     color: #fff;
     background-color: #292f41;
-    width: 21rem;
+    width: 21rem !important;
     letter-spacing: 0.5px;
     font-weight: 600;
     margin-left: 18px;
